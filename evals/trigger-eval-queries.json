@@ -1,0 +1,152 @@
+[
+  {
+    "query": "I've got a $610K renewal coming up in January with Darktrace. The account owner is leaving end of month, their new CISO started 3 weeks ago, and I've heard through the grapevine they're looking at Palo Alto. I need a plan before my Friday forecast call.",
+    "should_trigger": true,
+    "rationale": "Complex renewal risk with competitive threat, personnel change, and time pressure. Core council territory."
+  },
+  {
+    "query": "my team's GARR is sitting at 85% through May and I've got three AMs leaving end of June. how do I redistribute $3.5M in H2 renewals across four remaining reps plus a new hire starting June 29?",
+    "should_trigger": true,
+    "rationale": "Territory redesign + book triage under crisis conditions. Matches deal strategy, coaching, and book triage protocols."
+  },
+  {
+    "query": "We keep missing forecast by 25-30% every quarter. Pipeline coverage looks fine at 3.5x but nothing closes. The VP Sales blames marketing, marketing blames sales, CS says they're not involved early enough. Where do I even start?",
+    "should_trigger": true,
+    "rationale": "Systemic revenue diagnosis — maps to F-089 Revenue System Diagnostic, F-093 Forecast Methodology, and the crisis triage protocol."
+  },
+  {
+    "query": "I need to prep for a meeting with the CMO of Board International next Tuesday. She's new in role, I've never met her, and we have a $102K renewal in 90 days that the current AM has rated as HIGH risk. What should I know and what should I say?",
+    "should_trigger": true,
+    "rationale": "Meeting prep + account strategy + renewal risk. Maps to relationship posture classification, meeting intelligence sweep, and executive communication."
+  },
+  {
+    "query": "peter mole closed a $125K deal with centric software using AI to build the business case. I want to turn that into a repeatable play for the rest of the team. how would you structure that as a coaching programme?",
+    "should_trigger": true,
+    "rationale": "Coaching programme design. Maps to F-104 Traffic Light, F-105 Reinforcement Architecture, and coaching protocol."
+  },
+  {
+    "query": "Score these 15 accounts by ICP fit and buying intent and tell me which ones I should prioritise for outbound this quarter — I've got limited SDR capacity and can only work 5-6 properly",
+    "should_trigger": true,
+    "rationale": "Account scoring and prioritisation. Maps to F-114 Four-Axis Account Scoring."
+  },
+  {
+    "query": "what's the best way to structure comp for an enterprise new business rep? I'm thinking 50/50 split, $250K quota, 4-month ramp. Does that make sense for a $170K OTE?",
+    "should_trigger": true,
+    "rationale": "Compensation design. Maps to F-097 GTM Compensation Architecture."
+  },
+  {
+    "query": "our MQL to SQL conversion is 8% and sales says marketing leads are garbage. Before I go to war with marketing, help me figure out if it's actually a scoring problem or a handoff problem or something else entirely",
+    "should_trigger": true,
+    "rationale": "RevOps diagnostic — lead scoring, handoff, MQL definition. Maps to F-100 Marketing Operations, F-094 Lead Routing, F-111 Three-Tier KPI."
+  },
+  {
+    "query": "I just found out our biggest account ($2.8M ACV, 600 seats) is restructuring their entire EMEA go-to-market in 3 weeks. New segmentation, new financial year. What's the play?",
+    "should_trigger": true,
+    "rationale": "Strategic account crisis. Maps to deal strategy, account research sweep, and multiple council frameworks."
+  },
+  {
+    "query": "Can you review this email I'm about to send to the CRO of a prospect? I want to make sure it doesn't sound like it was written by AI and that the argument actually holds.",
+    "should_trigger": true,
+    "rationale": "Document review + Customer-Facing Output Gate. Maps to Mode 5 and humanizer audit."
+  },
+  {
+    "query": "what's the weather forecast for London this weekend? I'm thinking of taking the kids to the park",
+    "should_trigger": false,
+    "rationale": "Personal/weather query. No GTM, sales, or revenue context."
+  },
+  {
+    "query": "write me a python script that reads a CSV file and calculates the average of column B, then outputs a bar chart using matplotlib",
+    "should_trigger": false,
+    "rationale": "Technical coding task. No sales/GTM context despite involving data."
+  },
+  {
+    "query": "can you summarise this 40-page PDF about quantum computing trends? I need the key takeaways for a presentation",
+    "should_trigger": false,
+    "rationale": "Document summarisation. General task, no GTM framing despite being business-adjacent."
+  },
+  {
+    "query": "I need to write a job description for a senior software engineer. We're a Series B startup doing real-time data processing. Can you help?",
+    "should_trigger": false,
+    "rationale": "HR/recruiting task. Mentions company context but the task is writing a JD, not GTM strategy. Near-miss — involves 'company' and 'hiring' but wrong domain."
+  },
+  {
+    "query": "help me build a financial model for our Series C fundraise. I need to show ARR projections, burn rate, and path to profitability over 36 months",
+    "should_trigger": false,
+    "rationale": "Financial modelling for fundraising. Uses SaaS terminology (ARR, burn rate) but the task is investor-facing finance, not GTM operations. Near-miss — shares vocabulary with GTM."
+  },
+  {
+    "query": "what's the best CRM for a 10-person sales team? We're currently using spreadsheets and need to pick between HubSpot and Salesforce",
+    "should_trigger": false,
+    "rationale": "Tool selection question. The council has CRM platform knowledge (F-103) but this is a buying decision, not a GTM strategy question. The user needs a product comparison, not advisory council depth. Near-miss."
+  },
+  {
+    "query": "I'm preparing a board deck for next quarter. Can you help me structure the narrative around our go-to-market performance? Revenue is up 40% but NRR dropped to 95%",
+    "should_trigger": true,
+    "rationale": "Board presentation with GTM performance data. Despite being a 'deck' request, the core task is GTM analysis and narrative construction. Maps to executive communication, NRR diagnosis, and Minto's Pyramid Principle."
+  },
+  {
+    "query": "our customer success team is completely reactive — no health scores, no playbooks, accounts churn and we only find out when they don't renew. How do I fix this?",
+    "should_trigger": true,
+    "rationale": "CS operations maturity. Maps directly to F-099 CS Operations Maturity Model."
+  },
+  {
+    "query": "can you help me plan my wedding? I need a timeline, budget breakdown, and vendor list for a 150-person event in the Cotswolds",
+    "should_trigger": false,
+    "rationale": "Personal event planning. Obviously off-domain — included as a sanity check."
+  },
+  {
+    "query": "I need to create a marketing campaign for our new product launch. Can you help with messaging, target audience, and channel strategy?",
+    "should_trigger": false,
+    "rationale": "Marketing campaign execution. Adjacent to GTM but the task is campaign creation, not revenue operations or deal strategy. The council advises on GTM architecture, not campaign tactics. Near-miss — a user might expect the council to help here, but it's better handled by marketing execution skills."
+  },
+  {
+    "query": "help me build a £1M deal for an AIM-listed customer currently spending $119K with us. They're a £92M revenue company with 457 employees. I want to include ZI Labs and an embedded FDE.",
+    "should_trigger": true,
+    "rationale": "TC19: Scale calibration test. Deal represents >1% of buyer revenue. Frameworks must be adjusted to buyer scale, not applied at standard enterprise thresholds."
+  },
+  {
+    "query": "a customer has acquired 3 companies in 18 months but their organic growth is only 6%. what's the challenger insight?",
+    "should_trigger": true,
+    "rationale": "TC20: Quantitative-before-qualitative test. The Challenger insight must be derived from the growth rate gap (quantitative) not qualitative observations about marketing or positioning."
+  },
+  {
+    "query": "build an expansion strategy for our existing customer Nexthink. They have a renewal in 34 days and we know they're evaluating Clay.",
+    "should_trigger": true,
+    "rationale": "TC21: Mandatory internal data test. Must query Snowflake for actual platform usage (seats, credits, logins) before generating strategy. Cannot rely solely on Salesforce and Chorus."
+  },
+  {
+    "query": "how should I pitch a $500K expansion to a VP Sales I've never met? The meeting is next Tuesday.",
+    "should_trigger": true,
+    "rationale": "TC22: Selling style filter test. Must check user's documented consultative/pull-based style before recommending negotiation approach. Must not design push-based sequences without flagging the contradiction."
+  },
+  {
+    "query": "my highest-risk $255K renewal needs a rescue plan. The AM who owns it is departing in 3 weeks and we have no backup relationship.",
+    "should_trigger": true,
+    "rationale": "TC23: MEDDPICC automatic test. Qualification must run in the first output. Paper process, EB, and decision process must be assessed as pre-conditions before rescue strategy is designed."
+  },
+  {
+    "query": "analyse the Darktrace account and tell me our next move for the January renewal. They're going through a major internal restructuring with new leadership.",
+    "should_trigger": true,
+    "rationale": "TC24: Dual Chorus search test. Must run two searches — commercial context and constraints/blockers. A single search is incomplete and violates protocol."
+  },
+  {
+    "query": "we're modelling a deal with an embedded FDE for 12 months. the FDE would cost around £150K. Is this margin-positive at £800K TCV?",
+    "should_trigger": true,
+    "rationale": "TC25: Assumption detection test. FDE cost and location must be confirmed or asked about, not assumed. Outputs must use ranges with stated assumptions."
+  },
+  {
+    "query": "I want to design a detailed territory strategy for one of my AMs who's at 84% GARR. Can you build a full plan with account-level recommendations?",
+    "should_trigger": true,
+    "rationale": "TC26: Drucker test. Must assess whether user should personally invest time in this given concurrent priorities documented in memory (AM departures, book redistribution, new hire onboarding)."
+  },
+  {
+    "query": "structure a £1M engagement that includes a 12-month embedded engineer, ZI Labs consulting, and our SalesOS + GTM Studio platform. How do we price it?",
+    "should_trigger": true,
+    "rationale": "TC27: Deal identity test. Must classify as platform-with-services or services-with-software. Must model year-2 renewal for both classifications. Must flag if services >40% of TCV."
+  },
+  {
+    "query": "I want the full council to debate whether we should pursue an embedded deployment model for mid-market customers. Get everyone in the room.",
+    "should_trigger": true,
+    "rationale": "TC28: Council debate fidelity test. Must produce genuine disagreements (minimum 3), direct avatar-to-avatar contradictions, at least one novel tension, and honest unresolved questions."
+  }
+]

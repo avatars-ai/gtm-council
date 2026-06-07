@@ -1,0 +1,5 @@
+{
+  "description": "Staging area for new eval candidates. Prompts that don't match existing eval patterns are captured here. After 3 similar instances (Three-Data-Point Rule), they're promoted to evals.json.",
+  "candidates": [],
+  "_created_by": "AZS"
+}

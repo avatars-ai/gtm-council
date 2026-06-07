@@ -1,0 +1,31 @@
+# Research files (generated during avatar building, not part of the skill)
+research/
+
+# Personal operator data (learning captures are operator-specific)
+learning/engagements/
+learning/reviews/
+learning/avatar-calibrations/*.md
+learning/operator-profile.md
+
+# Operator-specific team OS (contains calibrated team data)
+operator/team-os.md
+
+# Promoted examples ARE committed — they're the skill's learned intelligence
+!learning/promoted-examples/
+
+# Keep the learning directory structure but not the content
+!learning/engagements/.gitkeep
+!learning/reviews/.gitkeep
+!learning/avatar-calibrations/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+

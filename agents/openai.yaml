@@ -1,0 +1,4 @@
+interface:
+  display_name: "GTM OS"
+  short_description: "GTM advisory board for revenue strategy"
+  default_prompt: "Use $gtm-os to diagnose a deal, pipeline, account, team, or GTM strategy question."

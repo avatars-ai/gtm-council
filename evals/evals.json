@@ -1,0 +1,1232 @@
+{
+    "skill_name":  "gtm-os",
+    "evals":  [
+                  {
+                      "id":  1,
+                      "prompt":  "My $500K renewal is due in 45 days. The champion just left the company 2 weeks ago and we have no relationship with the replacement. The economic buyer signed the original deal but hasn\u0027t been engaged since. What do I do?",
+                      "expected_output":  "Council session with deal rescue strategy from multiple avatars. Must include: MEDDPICC re-qualification, stakeholder mapping, specific outreach plan with timeline, champion development strategy for the new contact.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "council",
+                      "scope":  "opportunity",
+                      "assertions":  [
+                                         {
+                                             "text":  "Output contains a Big Idea in the first sentence with position and stakes",
+                                             "type":  "quality"
+                                         },
+                                         {
+                                             "text":  "At least 2 distinct avatars contribute with framework-specific advice",
+                                             "type":  "structural"
+                                         },
+                                         {
+                                             "text":  "Output includes specific actions with owners and deadlines",
+                                             "type":  "actionability"
+                                         },
+                                         {
+                                             "text":  "MEDDPICC assessment is included with element-level scoring",
+                                             "type":  "framework"
+                                         },
+                                         {
+                                             "text":  "Output addresses champion development for the new stakeholder",
+                                             "type":  "completeness"
+                                         },
+                                         {
+                                             "text":  "Output passes the Glance Test — main point clear in 3 seconds",
+                                             "type":  "design"
+                                         },
+                                         {
+                                             "text":  "Data gathering runs BEFORE any avatar advice is given (not after or in parallel)",
+                                             "type":  "data_gathering_sequence"
+                                         },
+                                         {
+                                             "text":  "At least 3 distinct data sources are queried (Salesforce, meeting intelligence, enrichment, web search, or account intelligence)",
+                                             "type":  "data_gathering_breadth"
+                                         },
+                                         {
+                                             "text":  "Output includes white space analysis identifying what is NOT in the data (stakeholder gaps, product gaps, signal gaps, or use-case gaps)",
+                                             "type":  "data_gathering_white_space"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  2,
+                      "prompt":  "My enterprise segment has 3.1x pipeline coverage against a $4M quarterly target. We had 3.5x last quarter and only hit 92%. Should I be worried?",
+                      "expected_output":  "Pipeline diagnosis with coverage decomposition, stage-weighted analysis, activity trend assessment, and specific remediation plan.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "council",
+                      "scope":  "territory",
+                      "assertions":  [
+                                         {
+                                             "text":  "Output includes coverage analysis beyond the headline number (stage-weighted, age-weighted, or rep-level decomposition)",
+                                             "type":  "depth"
+                                         },
+                                         {
+                                             "text":  "Output references historical conversion rate to predict current trajectory",
+                                             "type":  "analytical"
+                                         },
+                                         {
+                                             "text":  "Output includes the 30-Day Rule or equivalent lagging indicator diagnosis",
+                                             "type":  "framework"
+                                         },
+                                         {
+                                             "text":  "Output ends with specific actions including a timeline",
+                                             "type":  "actionability"
+                                         },
+                                         {
+                                             "text":  "Numbers include contrast (vs target, vs prior period)",
+                                             "type":  "design"
+                                         },
+                                         {
+                                             "text":  "Data gathering runs BEFORE any avatar advice is given (not after or in parallel)",
+                                             "type":  "data_gathering_sequence"
+                                         },
+                                         {
+                                             "text":  "At least 3 distinct data sources are queried (Salesforce, meeting intelligence, enrichment, web search, or account intelligence)",
+                                             "type":  "data_gathering_breadth"
+                                         },
+                                         {
+                                             "text":  "Output includes white space analysis identifying what is NOT in the data (stakeholder gaps, product gaps, signal gaps, or use-case gaps)",
+                                             "type":  "data_gathering_white_space"
+                                         },
+                                         {
+                                             "text":  "Operator title is checked to determine team vs individual scope before querying data",
+                                             "type":  "data_gathering_scope"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  3,
+                      "prompt":  "One of my accounts just told me they\u0027re evaluating a competitor. They said they need to understand their options before renewal in 90 days. The competitor is cheaper per seat but doesn\u0027t have our data depth. How should I handle this?",
+                      "expected_output":  "Structured debate between empathy-first and challenger approaches, with a hybrid recommendation and specific competitive response actions.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "debate",
+                      "scope":  "opportunity",
+                      "assertions":  [
+                                         {
+                                             "text":  "Output presents at least 2 opposing perspectives with named avatars",
+                                             "type":  "structural"
+                                         },
+                                         {
+                                             "text":  "Output includes \u0027What Would Need to Be True\u0027 for each position",
+                                             "type":  "framework"
+                                         },
+                                         {
+                                             "text":  "Output addresses TCO vs unit price reframing",
+                                             "type":  "competitive"
+                                         },
+                                         {
+                                             "text":  "Output includes multi-stakeholder engagement plan",
+                                             "type":  "completeness"
+                                         },
+                                         {
+                                             "text":  "Output produces a recommended hybrid approach, not just the debate",
+                                             "type":  "actionability"
+                                         },
+                                         {
+                                             "text":  "Data gathering runs BEFORE any avatar advice is given (not after or in parallel)",
+                                             "type":  "data_gathering_sequence"
+                                         },
+                                         {
+                                             "text":  "At least 3 distinct data sources are queried (Salesforce, meeting intelligence, enrichment, web search, or account intelligence)",
+                                             "type":  "data_gathering_breadth"
+                                         },
+                                         {
+                                             "text":  "Output includes white space analysis identifying what is NOT in the data (stakeholder gaps, product gaps, signal gaps, or use-case gaps)",
+                                             "type":  "data_gathering_white_space"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  4,
+                      "prompt":  "I need to write an executive briefing for my SVP about a revenue risk I\u0027ve identified. About 300 accounts in our base have zero adoption of our new consumption platform and I think they\u0027re vulnerable to competitive displacement. How should I structure this?",
+                      "expected_output":  "Cliff Edge-structured executive memo with trailing/leading indicator split, scenario banding, execution tracks, specific asks, and cost asymmetry close.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "individual",
+                      "scope":  "region",
+                      "assertions":  [
+                                         {
+                                             "text":  "Output follows the 7-section Cliff Edge structure (TL;DR, What Happened, Signals, What This Means, What We Are Doing, What I Need, Close)",
+                                             "type":  "structural"
+                                         },
+                                         {
+                                             "text":  "Output includes trailing/leading indicator split",
+                                             "type":  "framework"
+                                         },
+                                         {
+                                             "text":  "Output includes scenario banding with at least 3 scenarios",
+                                             "type":  "framework"
+                                         },
+                                         {
+                                             "text":  "Output includes specific asks with named teams and deadlines",
+                                             "type":  "actionability"
+                                         },
+                                         {
+                                             "text":  "Output closes with cost asymmetry (acting vs waiting)",
+                                             "type":  "design"
+                                         },
+                                         {
+                                             "text":  "Output would pass the Antuna Test — SVP can read in under 3 minutes",
+                                             "type":  "quality"
+                                         },
+                                         {
+                                             "text":  "Data gathering runs BEFORE any avatar advice is given (not after or in parallel)",
+                                             "type":  "data_gathering_sequence"
+                                         },
+                                         {
+                                             "text":  "At least 3 distinct data sources are queried (Salesforce, meeting intelligence, enrichment, web search, or account intelligence)",
+                                             "type":  "data_gathering_breadth"
+                                         },
+                                         {
+                                             "text":  "Output includes white space analysis identifying what is NOT in the data (stakeholder gaps, product gaps, signal gaps, or use-case gaps)",
+                                             "type":  "data_gathering_white_space"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  5,
+                      "prompt":  "I have a rep who\u0027s been with us 18 months. Good at renewals but can\u0027t seem to close expansion deals. Numbers are fine on retention but zero growth. What\u0027s going on and how do I coach them?",
+                      "expected_output":  "Coaching diagnosis using Skill/Will/System framework with TRM assessment and specific development plan.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "individual",
+                      "scope":  "coaching",
+                      "assertions":  [
+                                         {
+                                             "text":  "Output applies Skill/Will/System diagnostic to identify root cause",
+                                             "type":  "framework"
+                                         },
+                                         {
+                                             "text":  "Output assesses TRM for expansion selling as distinct from renewal selling",
+                                             "type":  "framework"
+                                         },
+                                         {
+                                             "text":  "Output includes specific coaching actions (not generic advice)",
+                                             "type":  "actionability"
+                                         },
+                                         {
+                                             "text":  "Output distinguishes between the rep\u0027s high-TRM tasks and low-TRM tasks",
+                                             "type":  "depth"
+                                         },
+                                         {
+                                             "text":  "Output suggests a coaching mode (directive/coaching/delegative) for each gap",
+                                             "type":  "completeness"
+                                         },
+                                         {
+                                             "text":  "Data gathering runs BEFORE any avatar advice is given (not after or in parallel)",
+                                             "type":  "data_gathering_sequence"
+                                         },
+                                         {
+                                             "text":  "At least 3 distinct data sources are queried (Salesforce, meeting intelligence, enrichment, web search, or account intelligence)",
+                                             "type":  "data_gathering_breadth"
+                                         },
+                                         {
+                                             "text":  "Operator title is checked to determine team vs individual scope before querying data",
+                                             "type":  "data_gathering_scope"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  6,
+                      "prompt":  "I\u0027m preparing for a QBR with my CRO next week. My territory did 87% GARR last quarter against a 100% target. Two big churns hit us — one competitive loss and one budget cut. How do I present this?",
+                      "expected_output":  "CRO-level presentation framework with Pyramid Principle structure, root cause analysis, and forward plan — calibrated to extreme brevity.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "individual",
+                      "scope":  "territory",
+                      "assertions":  [
+                                         {
+                                             "text":  "Output is calibrated for CRO audience (extreme brevity, conclusion-first)",
+                                             "type":  "audience"
+                                         },
+                                         {
+                                             "text":  "Output uses SCR or Pyramid Principle structure",
+                                             "type":  "framework"
+                                         },
+                                         {
+                                             "text":  "Output addresses root causes of the two churns specifically",
+                                             "type":  "depth"
+                                         },
+                                         {
+                                             "text":  "Output includes a forward plan with specific recovery actions",
+                                             "type":  "actionability"
+                                         },
+                                         {
+                                             "text":  "Output would pass the Roth/Schuck Test",
+                                             "type":  "quality"
+                                         },
+                                         {
+                                             "text":  "Data gathering runs BEFORE any avatar advice is given (not after or in parallel)",
+                                             "type":  "data_gathering_sequence"
+                                         },
+                                         {
+                                             "text":  "At least 3 distinct data sources are queried (Salesforce, meeting intelligence, enrichment, web search, or account intelligence)",
+                                             "type":  "data_gathering_breadth"
+                                         },
+                                         {
+                                             "text":  "Output includes white space analysis identifying what is NOT in the data (stakeholder gaps, product gaps, signal gaps, or use-case gaps)",
+                                             "type":  "data_gathering_white_space"
+                                         },
+                                         {
+                                             "text":  "Operator title is checked to determine team vs individual scope before querying data",
+                                             "type":  "data_gathering_scope"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  7,
+                      "prompt":  "What would John McMahon say about a deal where the prospect loves the product but keeps pushing the timeline? We\u0027ve done a great demo, they said they want to move forward, but it\u0027s been 6 weeks with no progress.",
+                      "expected_output":  "Individual consultation with McMahon avatar diagnosing the deal using MEDDPICC, identifying the likely missing elements (champion, paper process, compelling event).",
+                      "should_trigger":  true,
+                      "interaction_mode":  "individual",
+                      "scope":  "opportunity",
+                      "assertions":  [
+                                         {
+                                             "text":  "Output responds in McMahon\u0027s voice and frameworks, not generic advice",
+                                             "type":  "voice"
+                                         },
+                                         {
+                                             "text":  "Output identifies the likely missing MEDDPICC elements causing the stall",
+                                             "type":  "framework"
+                                         },
+                                         {
+                                             "text":  "Output distinguishes between a real \u0027yes\u0027 and a counterfeit \u0027yes\u0027 (Voss)",
+                                             "type":  "depth"
+                                         },
+                                         {
+                                             "text":  "Output includes specific next steps to unstick the deal",
+                                             "type":  "actionability"
+                                         },
+                                         {
+                                             "text":  "Data gathering runs BEFORE any avatar advice is given (not after or in parallel)",
+                                             "type":  "data_gathering_sequence"
+                                         },
+                                         {
+                                             "text":  "At least 3 distinct data sources are queried (Salesforce, meeting intelligence, enrichment, web search, or account intelligence)",
+                                             "type":  "data_gathering_breadth"
+                                         },
+                                         {
+                                             "text":  "Output includes white space analysis identifying what is NOT in the data (stakeholder gaps, product gaps, signal gaps, or use-case gaps)",
+                                             "type":  "data_gathering_white_space"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  8,
+                      "prompt":  "I want to propose a new enterprise outbound team to my leadership. It would be one headcount initially, focused on large accounts that aren\u0027t in our existing book. How do I build the business case?",
+                      "expected_output":  "Strategic initiative proposal using Cliff Edge structure or SCR framework with unit economics, scenario modelling, kill criteria, and specific asks.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "council",
+                      "scope":  "strategy",
+                      "assertions":  [
+                                         {
+                                             "text":  "Output includes unit economics (cost per rep, expected return, break-even)",
+                                             "type":  "analytical"
+                                         },
+                                         {
+                                             "text":  "Output includes kill criteria (when to stop if it\u0027s not working)",
+                                             "type":  "completeness"
+                                         },
+                                         {
+                                             "text":  "Output addresses the GTM efficiency test (Roth/Schuck lens)",
+                                             "type":  "framework"
+                                         },
+                                         {
+                                             "text":  "Output includes phased execution plan",
+                                             "type":  "actionability"
+                                         },
+                                         {
+                                             "text":  "Output would survive being forwarded to a CRO",
+                                             "type":  "quality"
+                                         },
+                                         {
+                                             "text":  "Data gathering runs BEFORE any avatar advice is given (not after or in parallel)",
+                                             "type":  "data_gathering_sequence"
+                                         },
+                                         {
+                                             "text":  "At least 3 distinct data sources are queried (Salesforce, meeting intelligence, enrichment, web search, or account intelligence)",
+                                             "type":  "data_gathering_breadth"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  9,
+                      "prompt":  "Can you help me write a short email to a CFO at one of my accounts? We need to get budget approved for a renewal that\u0027s 15% higher than last year. The product usage has tripled.",
+                      "expected_output":  "Executive email artifact — under 5 sentences, Pyramid Principle structure, value-delivered framing, clear ask.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "individual",
+                      "scope":  "opportunity",
+                      "assertions":  [
+                                         {
+                                             "text":  "Output is under 100 words / 5 sentences",
+                                             "type":  "brevity"
+                                         },
+                                         {
+                                             "text":  "Output leads with value delivered, not price explanation",
+                                             "type":  "framework"
+                                         },
+                                         {
+                                             "text":  "Output includes a specific ask with timeline",
+                                             "type":  "actionability"
+                                         },
+                                         {
+                                             "text":  "Output passes the Glance Test",
+                                             "type":  "design"
+                                         },
+                                         {
+                                             "text":  "Data gathering runs BEFORE any avatar advice is given (not after or in parallel)",
+                                             "type":  "data_gathering_sequence"
+                                         },
+                                         {
+                                             "text":  "At least 3 distinct data sources are queried (Salesforce, meeting intelligence, enrichment, web search, or account intelligence)",
+                                             "type":  "data_gathering_breadth"
+                                         },
+                                         {
+                                             "text":  "Output includes white space analysis identifying what is NOT in the data (stakeholder gaps, product gaps, signal gaps, or use-case gaps)",
+                                             "type":  "data_gathering_white_space"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  10,
+                      "prompt":  "Give me a debate between Kyle Norton and Jeb Blount on whether I should invest in better data quality for my SDR team or just increase their activity targets.",
+                      "expected_output":  "Structured debate with Norton arguing data quality as force multiplier and Blount arguing activity discipline, with synthesis and conditions for each to be right.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "debate",
+                      "scope":  "strategy",
+                      "assertions":  [
+                                         {
+                                             "text":  "Norton and Blount speak in their distinct voices and frameworks",
+                                             "type":  "voice"
+                                         },
+                                         {
+                                             "text":  "Norton references the 40% wasted activity finding and 2.5x productivity gain",
+                                             "type":  "framework"
+                                         },
+                                         {
+                                             "text":  "Blount references the 30-Day Rule and activity discipline",
+                                             "type":  "framework"
+                                         },
+                                         {
+                                             "text":  "Output includes \u0027What Would Need to Be True\u0027 for each position",
+                                             "type":  "structural"
+                                         },
+                                         {
+                                             "text":  "Output includes a synthesis or recommended approach",
+                                             "type":  "actionability"
+                                         },
+                                         {
+                                             "text":  "Data gathering runs BEFORE any avatar advice is given (not after or in parallel)",
+                                             "type":  "data_gathering_sequence"
+                                         },
+                                         {
+                                             "text":  "At least 3 distinct data sources are queried (Salesforce, meeting intelligence, enrichment, web search, or account intelligence)",
+                                             "type":  "data_gathering_breadth"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  11,
+                      "prompt":  "Update my Salesforce dashboard with the latest pipeline numbers",
+                      "expected_output":  "Should NOT trigger the skill — this is a CRM operation, not a strategic advisory question.",
+                      "should_trigger":  false,
+                      "assertions":  [
+                                         {
+                                             "text":  "Skill does not trigger for simple CRM operations",
+                                             "type":  "negative"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  12,
+                      "prompt":  "What\u0027s the weather in London today?",
+                      "expected_output":  "Should NOT trigger the skill — completely unrelated to GTM.",
+                      "should_trigger":  false,
+                      "assertions":  [
+                                         {
+                                             "text":  "Skill does not trigger for non-GTM queries",
+                                             "type":  "negative"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  13,
+                      "prompt":  "Create a PowerPoint presentation about our Q3 results",
+                      "expected_output":  "Should NOT trigger — this is a presentation creation task, not a strategic advisory question. The slides skill or presentation tool should handle this.",
+                      "should_trigger":  false,
+                      "assertions":  [
+                                         {
+                                             "text":  "Skill does not trigger for generic presentation creation",
+                                             "type":  "negative"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  14,
+                      "prompt":  "Look up the contact information for the VP of Sales at Acme Corp",
+                      "expected_output":  "Should NOT trigger — this is a simple data lookup, not strategic advice. a data lookup tool handles this directly.",
+                      "should_trigger":  false,
+                      "assertions":  [
+                                         {
+                                             "text":  "Skill does not trigger for simple contact lookups",
+                                             "type":  "negative"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  15,
+                      "prompt":  "I just got off a call with a prospect who mentioned they\u0027re also talking to a competitor. The deal is worth about $200K and closes in 60 days. They seemed positive but I\u0027m not sure if we\u0027re really ahead. Can you help me think through this?",
+                      "expected_output":  "Should trigger — this is a deal strategy question even though the user didn\u0027t explicitly ask for the council.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "council",
+                      "scope":  "opportunity",
+                      "assertions":  [
+                                         {
+                                             "text":  "Skill triggers despite no explicit mention of council, avatars, or frameworks",
+                                             "type":  "triggering"
+                                         },
+                                         {
+                                             "text":  "Output includes competitive assessment and deal qualification",
+                                             "type":  "completeness"
+                                         },
+                                         {
+                                             "text":  "Output includes specific actions to determine competitive position",
+                                             "type":  "actionability"
+                                         },
+                                         {
+                                             "text":  "Data gathering runs BEFORE any avatar advice is given (not after or in parallel)",
+                                             "type":  "data_gathering_sequence"
+                                         },
+                                         {
+                                             "text":  "At least 3 distinct data sources are queried (Salesforce, meeting intelligence, enrichment, web search, or account intelligence)",
+                                             "type":  "data_gathering_breadth"
+                                         },
+                                         {
+                                             "text":  "Output includes white space analysis identifying what is NOT in the data (stakeholder gaps, product gaps, signal gaps, or use-case gaps)",
+                                             "type":  "data_gathering_white_space"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  16,
+                      "prompt":  "Check my YTD performance and help me improve it",
+                      "expected_output":  "The skill must pull real data from Salesforce (pipeline, bookings, GARR attainment, renewal outcomes) and meeting intelligence (call activity, discovery quality), then diagnose performance gaps using operator frameworks and produce a specific improvement plan. If tools are not connected, the skill must tell the user exactly which tools to connect and why.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "council",
+                      "scope":  "territory",
+                      "requires_tools":  [
+                                             "salesforce",
+                                             "meeting_intelligence"
+                                         ],
+                      "assertions":  [
+                                         {
+                                             "text":  "Skill attempts to pull real data from Salesforce (pipeline, bookings, attainment)",
+                                             "type":  "tool_integration"
+                                         },
+                                         {
+                                             "text":  "If Salesforce is not connected, skill tells user to connect it and explains what data it would provide",
+                                             "type":  "tool_guidance"
+                                         },
+                                         {
+                                             "text":  "Output includes YTD attainment vs target with contrast (% of target, vs prior year if available)",
+                                             "type":  "analytical"
+                                         },
+                                         {
+                                             "text":  "Output diagnoses root causes of any performance gaps (not just states the gap)",
+                                             "type":  "depth"
+                                         },
+                                         {
+                                             "text":  "Output uses operator frameworks (paired indicators, pipeline coverage, activity analysis) not generic advice",
+                                             "type":  "framework"
+                                         },
+                                         {
+                                             "text":  "Output produces a specific improvement plan with actions, owners, and timelines",
+                                             "type":  "actionability"
+                                         },
+                                         {
+                                             "text":  "Output identifies which leading indicators need to change to improve lagging outcomes",
+                                             "type":  "analytical"
+                                         },
+                                         {
+                                             "text":  "Output passes the Glance Test — main performance message clear in 3 seconds",
+                                             "type":  "design"
+                                         },
+                                         {
+                                             "text":  "Data gathering runs BEFORE any avatar advice is given (not after or in parallel)",
+                                             "type":  "data_gathering_sequence"
+                                         },
+                                         {
+                                             "text":  "At least 3 distinct data sources are queried (Salesforce, meeting intelligence, enrichment, web search, or account intelligence)",
+                                             "type":  "data_gathering_breadth"
+                                         },
+                                         {
+                                             "text":  "Output includes white space analysis identifying what is NOT in the data (stakeholder gaps, product gaps, signal gaps, or use-case gaps)",
+                                             "type":  "data_gathering_white_space"
+                                         },
+                                         {
+                                             "text":  "Salesforce entity schema is queried before SOQL queries are written (field names confirmed not guessed)",
+                                             "type":  "data_gathering_schema"
+                                         },
+                                         {
+                                             "text":  "Operator title is checked to determine team vs individual scope before querying data",
+                                             "type":  "data_gathering_scope"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  17,
+                      "prompt":  "Score my reps\u0027 performance on how I need them to sell our products and services",
+                      "expected_output":  "The skill must pull rep-level data from Salesforce (individual pipeline, bookings, attainment by rep) and meeting intelligence (call recordings, talk tracks, discovery quality), then score each rep against the operator\u0027s selling standards (MEDDPICC, consultative selling, process discipline). Must use the diagnostic framework (Skill/Will/System, TRM) and produce per-rep coaching plans.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "council",
+                      "scope":  "coaching",
+                      "requires_tools":  [
+                                             "salesforce",
+                                             "meeting_intelligence"
+                                         ],
+                      "assertions":  [
+                                         {
+                                             "text":  "Skill attempts to pull rep-level performance data from Salesforce",
+                                             "type":  "tool_integration"
+                                         },
+                                         {
+                                             "text":  "Skill attempts to pull call/meeting data from meeting intelligence to assess selling quality",
+                                             "type":  "tool_integration"
+                                         },
+                                         {
+                                             "text":  "If tools are not connected, skill tells user exactly which to connect and what each provides",
+                                             "type":  "tool_guidance"
+                                         },
+                                         {
+                                             "text":  "Output scores each rep individually — not a blended team average",
+                                             "type":  "depth"
+                                         },
+                                         {
+                                             "text":  "Output assesses reps against the operator\u0027s selling standards (MEDDPICC, discovery quality, process discipline) not just outcomes",
+                                             "type":  "framework"
+                                         },
+                                         {
+                                             "text":  "Output applies Skill/Will/System diagnostic to each underperforming rep",
+                                             "type":  "framework"
+                                         },
+                                         {
+                                             "text":  "Output includes TRM assessment — which tasks each rep is high vs low TRM on",
+                                             "type":  "framework"
+                                         },
+                                         {
+                                             "text":  "Output produces a specific coaching plan per rep with actions and coaching mode",
+                                             "type":  "actionability"
+                                         },
+                                         {
+                                             "text":  "Output distinguishes between reps who need coaching vs reps who need a different conversation",
+                                             "type":  "depth"
+                                         },
+                                         {
+                                             "text":  "Data gathering runs BEFORE any avatar advice is given (not after or in parallel)",
+                                             "type":  "data_gathering_sequence"
+                                         },
+                                         {
+                                             "text":  "At least 3 distinct data sources are queried (Salesforce, meeting intelligence, enrichment, web search, or account intelligence)",
+                                             "type":  "data_gathering_breadth"
+                                         },
+                                         {
+                                             "text":  "Salesforce entity schema is queried before SOQL queries are written (field names confirmed not guessed)",
+                                             "type":  "data_gathering_schema"
+                                         },
+                                         {
+                                             "text":  "Operator title is checked to determine team vs individual scope before querying data",
+                                             "type":  "data_gathering_scope"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  20,
+                      "prompt":  "A customer is growing at 6% YoY despite making 3 acquisitions in 18 months totalling $110M. Their product capability has doubled but revenue hasn\u0027t kept pace. What\u0027s the Challenger insight I should lead with?",
+                      "expected_output":  "The Challenger insight must be derived from the quantitative gap between acquisition investment and organic growth rate, not from qualitative observations. The skill must check financial data (growth rate, acquisition spend, organic vs inorganic contribution) before presenting qualitative reframes.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "individual",
+                      "scope":  "account",
+                      "assertions":  [
+                                         {
+                                             "text":  "Challenger insight is derived from financial or operational data before qualitative observations",
+                                             "type":  "quantitative_first"
+                                         },
+                                         {
+                                             "text":  "When financial data has been gathered, the skill calculates organic vs inorganic growth rates before making strategic recommendations",
+                                             "type":  "quantitative_first"
+                                         },
+                                         {
+                                             "text":  "If the skill presents a qualitative Challenger insight, it first confirms that no stronger quantitative insight exists in the data already gathered",
+                                             "type":  "quantitative_first"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  25,
+                      "prompt":  "We\u0027re modelling a deal with an embedded FDE for a mid-market customer. The FDE would cost around £150K fully loaded. Is this deal margin-positive at £800K TCV?",
+                      "expected_output":  "The skill must distinguish between confirmed facts and assumptions. FDE location and cost must be presented as a question if not confirmed by the user, not stated as fact. Outputs must use ranges with stated assumptions, not single figures.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "individual",
+                      "scope":  "opportunity",
+                      "assertions":  [
+                                         {
+                                             "text":  "When modelling cost, price, or resource allocation, the skill distinguishes between confirmed facts and assumptions",
+                                             "type":  "assumption_detection"
+                                         },
+                                         {
+                                             "text":  "If a cost or resource input is assumed (not confirmed by the user or data), the skill presents it as a question not a statement",
+                                             "type":  "assumption_detection"
+                                         },
+                                         {
+                                             "text":  "Assumption-sensitive outputs (margin, ROI, payback) are presented as ranges with stated assumptions, not single figures",
+                                             "type":  "assumption_detection"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  26,
+                      "prompt":  "I want to design a bespoke territory strategy for Sarah Briggs. She\u0027s at 84% GARR and needs a new approach for H2. Can you build a full plan?",
+                      "expected_output":  "Before designing the strategy, the skill must assess whether the user should be personally involved in this level of detail. Given documented concurrent priorities (AM departures, book redistribution, new hire onboarding), the skill must ask whether the user runs this or delegates with coaching.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "council",
+                      "scope":  "territory",
+                      "assertions":  [
+                                         {
+                                             "text":  "Before designing any strategy requiring significant user time, the skill references the user\u0027s current priorities from memory and assesses whether personal involvement is justified",
+                                             "type":  "drucker_test"
+                                         },
+                                         {
+                                             "text":  "If the user has concurrent high-priority commitments documented in memory, the skill asks whether they should run this personally or delegate with sponsorship",
+                                             "type":  "drucker_test"
+                                         },
+                                         {
+                                             "text":  "The skill does not assume user involvement by default — the question of who runs the work is a strategic decision, not an assumption",
+                                             "type":  "drucker_test"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  28,
+                      "prompt":  "I want the full council to debate whether we should pursue a strategic partnership with a mid-market SaaS company that wants us to embed a deployment engineer for 12 months. Give me the full debate.",
+                      "expected_output":  "Full council debate with genuine intellectual disagreement between named avatars. Must include at least 3 direct contradictions, at least one novel tension not identified in prior analysis, and honest closure stating unresolved questions only the user can answer.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "council",
+                      "scope":  "strategy",
+                      "assertions":  [
+                                         {
+                                             "text":  "In a full council debate, a minimum of 3 genuine disagreements emerge between named avatars",
+                                             "type":  "council_debate_fidelity"
+                                         },
+                                         {
+                                             "text":  "At least one avatar directly contradicts a position taken by another avatar, using their name and referencing their specific argument",
+                                             "type":  "council_debate_fidelity"
+                                         },
+                                         {
+                                             "text":  "The council surfaces at least one tension that was NOT identified in prior analysis within the same session",
+                                             "type":  "council_debate_fidelity"
+                                         },
+                                         {
+                                             "text":  "The council summary clearly states unresolved questions that only the user can answer, not force artificial consensus",
+                                             "type":  "council_debate_fidelity"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  29,
+                      "prompt":  "My board wants to know why we\u0027re spending £2M on marketing but only 18% of pipeline is marketing-sourced. The CEO is questioning whether we should cut the budget and invest in outbound instead. How do I build the case that marketing is driving value beyond direct attribution?",
+                      "expected_output":  "Strategic defence of marketing investment using multi-touch attribution, influence models, and dark funnel concepts. Must use marketing-specific metrics (CAC, CPL, influenced pipeline, engagement-to-pipeline lag) not just sales metrics. Must present evidence framework, not just theory.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "council",
+                      "scope":  "strategy",
+                      "assertions":  [
+                                         {
+                                             "text":  "Output uses marketing-specific metrics (CAC, CPL, influenced pipeline, marketing-sourced vs marketing-influenced, engagement rate, content attribution) — not just ACV/pipeline/GARR",
+                                             "type":  "marketing_metric_fluency"
+                                         },
+                                         {
+                                             "text":  "Output addresses multi-touch attribution and the limitation of first-touch/last-touch models — does not treat \u0027marketing-sourced\u0027 as the only valid measure of marketing value",
+                                             "type":  "marketing_metric_fluency"
+                                         },
+                                         {
+                                             "text":  "Output applies at least one absorbed marketing framework (F-100 Dual-Axis Scoring, F-110 Touch Model Selection, F-111 Three-Tier KPI Architecture, or equivalent) — not generic advice",
+                                             "type":  "marketing_framework_application"
+                                         },
+                                         {
+                                             "text":  "Output produces a board-ready evidence structure (not just talking points) that the CMO could present with minimal adaptation",
+                                             "type":  "actionability"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  30,
+                      "prompt":  "Our MQL-to-SQL conversion dropped from 28% to 19% this quarter. Sales says lead quality is garbage and wants us to tighten scoring. Marketing says scoring is fine and sales isn\u0027t following up fast enough — average speed-to-lead is 47 hours. Who\u0027s right and what should I do?",
+                      "expected_output":  "Data-driven arbitration of marketing-sales disagreement. Must examine evidence from BOTH sides before taking a position. Must not default to the operator\u0027s sales perspective. Must propose diagnostic steps, not just pick a side.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "council",
+                      "scope":  "strategy",
+                      "assertions":  [
+                                         {
+                                             "text":  "Output examines evidence from BOTH sides (lead quality AND follow-up speed) before reaching a conclusion — does not default to siding with sales or marketing",
+                                             "type":  "cross_functional_neutrality"
+                                         },
+                                         {
+                                             "text":  "Output identifies that both claims could be simultaneously true (scoring may be stale AND follow-up speed may be degrading conversion) rather than treating it as binary",
+                                             "type":  "cross_functional_neutrality"
+                                         },
+                                         {
+                                             "text":  "Output proposes specific diagnostic steps with data sources (not just \u0027look at the data\u0027) — e.g., cohort the MQLs by score band, measure conversion by speed-to-lead bucket, check scoring model recency",
+                                             "type":  "actionability"
+                                         },
+                                         {
+                                             "text":  "Output uses marketing-operations vocabulary (lead scoring, routing SLA, speed-to-lead benchmarks, MQL decay curves) with technical fluency — not translated into sales-speak",
+                                             "type":  "marketing_metric_fluency"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  31,
+                      "prompt":  "I\u0027m running ABM programs against 200 target accounts. After 90 days, only 12% show meaningful engagement (defined as 3+ touches across 2+ channels). The rest are cold. My SDR team says the account list is wrong. My demand gen team says the plays aren\u0027t personalised enough. Should I expand the list, deepen the plays, or kill the program?",
+                      "expected_output":  "ABM-specific diagnosis that goes beyond generic advice. Must evaluate account selection methodology, play design, channel mix, and measurement framework. Must consider whether ABM is the right motion for this segment at all.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "council",
+                      "scope":  "strategy",
+                      "assertions":  [
+                                         {
+                                             "text":  "Output evaluates the ABM account selection methodology (ICP alignment, intent signals, fit scoring) before evaluating play execution — diagnosis follows the correct sequence",
+                                             "type":  "marketing_framework_application"
+                                         },
+                                         {
+                                             "text":  "Output applies at least one of: Touch Model Selection (F-110), Four-Axis Account Scoring (F-114), Marketing Operations Dual-Axis Scoring (F-100), or equivalent ABM-specific framework",
+                                             "type":  "marketing_framework_application"
+                                         },
+                                         {
+                                             "text":  "Output considers whether ABM is the right motion at all for this segment (not all accounts deserve 1:1 ABM — some should be 1:few or programmatic) rather than assuming the motion is correct and only the execution is wrong",
+                                             "type":  "depth"
+                                         },
+                                         {
+                                             "text":  "Output provides a specific triage framework: which of the 200 accounts to keep, which to drop, and what criteria to use — not just \u0027refine the list\u0027",
+                                             "type":  "actionability"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  32,
+                      "prompt":  "My cost per MQL has gone from $180 to $340 in 6 months. Paid search is getting more expensive as competitors bid up our keywords, organic is flat despite 15 blog posts per month, and our last 3 events converted at 2% vs our historical 8%. How do I restructure my channel mix without losing pipeline coverage?",
+                      "expected_output":  "Channel-level economic analysis with reallocation recommendations. Must model CAC by channel, apply diminishing returns logic, and address the portfolio risk of channel concentration. Must not recommend cutting spend without modelling the pipeline impact.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "individual",
+                      "scope":  "strategy",
+                      "assertions":  [
+                                         {
+                                             "text":  "Output analyses each channel independently (paid search, organic/content, events) with channel-specific metrics and diagnosis — not a blended \u0027your marketing isn\u0027t working\u0027 assessment",
+                                             "type":  "marketing_metric_fluency"
+                                         },
+                                         {
+                                             "text":  "Output models the pipeline impact of reallocation before recommending it — does not recommend cutting a channel without quantifying what pipeline would be lost",
+                                             "type":  "marketing_metric_fluency"
+                                         },
+                                         {
+                                             "text":  "Output identifies whether rising CPL is a market-level shift (competitor bidding, platform inflation) or an execution issue (ad quality, targeting decay, landing page conversion) — these require fundamentally different responses",
+                                             "type":  "depth"
+                                         },
+                                         {
+                                             "text":  "Output recommends a rebalanced portfolio with specific allocation shifts and expected outcomes — not just \u0027diversify your channels\u0027",
+                                             "type":  "actionability"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  33,
+                      "prompt":  "My VP Sales wants to redirect £500K of my marketing budget to hire 5 more SDRs. He says outbound is more predictable than inbound and every SDR generates £1.2M in pipeline. I think he\u0027s wrong but I need data to prove it. How do I defend my budget without making this a turf war?",
+                      "expected_output":  "Evidence-based budget defence that uses shared data (pipeline, conversion, CAC, payback period) to evaluate both options objectively. Must not be adversarial — must propose a shared evaluation framework that both marketing and sales leadership can accept.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "council",
+                      "scope":  "strategy",
+                      "assertions":  [
+                                         {
+                                             "text":  "Output challenges the VP Sales\u0027 claim with specific analytical rigour — e.g., £1.2M pipeline per SDR at what conversion rate? What\u0027s the cost to close that pipeline? What\u0027s the fully loaded SDR cost including management, tooling, ramp time, and attrition?",
+                                             "type":  "cross_functional_neutrality"
+                                         },
+                                         {
+                                             "text":  "Output does NOT simply defend marketing — it builds a shared evaluation framework (e.g., cost-per-opportunity or CAC by channel including SDR-sourced) that lets both sides compare on equal terms",
+                                             "type":  "cross_functional_neutrality"
+                                         },
+                                         {
+                                             "text":  "Output addresses the political dimension (how to present this without creating adversarial dynamics) alongside the analytical dimension — recognises this is a relationship problem as well as a data problem",
+                                             "type":  "depth"
+                                         },
+                                         {
+                                             "text":  "Output proposes a specific test or pilot rather than an all-or-nothing budget decision — e.g., redirect £100K as a controlled experiment with defined success metrics before committing £500K",
+                                             "type":  "actionability"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  34,
+                      "prompt":  "We\u0027re about to implement a lead scoring model in HubSpot. We have demographic data (title, company size, industry), behavioural data (page visits, content downloads, email engagement), and ZoomInfo intent signals. How should I architect the scoring model — what dimensions, what weights, and what thresholds trigger an MQL?",
+                      "expected_output":  "Implementation-ready lead scoring architecture with specific dimension weights, scoring bands, and MQL threshold logic. Must demonstrate technical depth in marketing operations, not just strategic advice. Must address score decay, recalibration cadence, and the relationship between scoring and routing.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "individual",
+                      "scope":  "strategy",
+                      "assertions":  [
+                                         {
+                                             "text":  "Output produces a specific scoring architecture with named dimensions, proposed weight ranges (not just \u0027weight behavioural higher\u0027), and threshold logic — implementation-ready, not conceptual",
+                                             "type":  "technical_implementation_depth"
+                                         },
+                                         {
+                                             "text":  "Output addresses score decay (how scores decrease over time without re-engagement) and recalibration cadence (how often to review and adjust the model) — not a set-it-and-forget-it design",
+                                             "type":  "technical_implementation_depth"
+                                         },
+                                         {
+                                             "text":  "Output applies at least one of: SPICED Scoring Rubric (F-112), Lead Routing Architecture (F-094), Marketing Operations Dual-Axis Scoring (F-100) — absorbed marketing frameworks are actually used",
+                                             "type":  "marketing_framework_application"
+                                         },
+                                         {
+                                             "text":  "Output connects scoring to routing (what happens AFTER the MQL threshold is hit — who gets the lead, what SLA applies, what happens if it\u0027s not actioned) rather than treating scoring in isolation",
+                                             "type":  "technical_implementation_depth"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  35,
+                      "prompt":  "I run customer marketing for a SaaS company with 2,000 accounts and 85% GRR. My CEO wants me to build a marketing program that drives upsell and cross-sell — not just retention. I have product usage data, NPS scores, and renewal dates. How do I design a marketing-led expansion engine?",
+                      "expected_output":  "Post-sale marketing strategy using expansion revenue frameworks. Must segment the customer base by expansion potential (not just risk), design lifecycle-appropriate plays, and connect marketing activities to expansion pipeline — not just retention metrics.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "council",
+                      "scope":  "strategy",
+                      "assertions":  [
+                                         {
+                                             "text":  "Output segments the customer base by expansion potential — not just health/risk. Uses usage data, whitespace analysis, or product adoption gaps to identify WHO to expand, not just who to retain.",
+                                             "type":  "marketing_framework_application"
+                                         },
+                                         {
+                                             "text":  "Output applies at least one post-sale/expansion framework (F-091 Expansion Revenue Engine, F-099 CS Operations Maturity, or equivalent) rather than applying acquisition marketing frameworks to expansion",
+                                             "type":  "marketing_framework_application"
+                                         },
+                                         {
+                                             "text":  "Output designs marketing plays that are distinct from acquisition plays — advocacy programs, usage-triggered campaigns, cross-sell education, executive engagement. Does not just repurpose demand gen tactics for existing customers.",
+                                             "type":  "depth"
+                                         },
+                                         {
+                                             "text":  "Output connects marketing activities to expansion PIPELINE (upsell/cross-sell opportunities created) not just retention metrics (NPS, CSAT, health score). Marketing\u0027s job here is revenue generation, not satisfaction measurement.",
+                                             "type":  "marketing_metric_fluency"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  36,
+                      "prompt":  "My CEO wants measurable pipeline from every marketing dollar. But I believe we need to invest 30% of our budget — about £600K — in brand activities that won\u0027t produce directly attributable pipeline for 12-18 months. How do I make the case for brand investment when my leadership team only values what they can measure in the quarter?",
+                      "expected_output":  "Strategic defence of brand investment that goes beyond \u0027brand matters.\u0027 Must propose measurement frameworks for brand (even if lagging), address the tension between quarterly measurement and long-term brand building, and provide evidence that brand investment compounds — not just theory.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "individual",
+                      "scope":  "strategy",
+                      "assertions":  [
+                                         {
+                                             "text":  "Output does NOT default to \u0027if you can\u0027t measure it, don\u0027t do it.\u0027 Acknowledges that some marketing value is real but not directly attributable to pipeline in the quarter it\u0027s spent.",
+                                             "type":  "cross_functional_neutrality"
+                                         },
+                                         {
+                                             "text":  "Output proposes specific brand measurement frameworks — share of voice, branded search volume trends, direct traffic growth, win rate improvement on branded vs unbranded leads, inbound velocity changes — rather than saying brand is unmeasurable",
+                                             "type":  "marketing_metric_fluency"
+                                         },
+                                         {
+                                             "text":  "Output addresses the organisational tension between quarterly reporting and long-term brand building with a practical solution — e.g., leading indicators reported quarterly, lagging outcomes reported annually, or a ring-fenced brand budget with different success criteria",
+                                             "type":  "depth"
+                                         },
+                                         {
+                                             "text":  "Output provides evidence or logic for why brand investment compounds over time rather than just asserting it — e.g., reduced CAC, improved SDR connect rates, higher close rates on inbound, premium pricing power",
+                                             "type":  "actionability"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  37,
+                      "prompt":  "I have an account renewing in 60 days. The CSM says adoption is strong — 6,300 credits consumed and 28 active users in the last 90 days across 60 seats. But the account hasn\u0027t responded to renewal outreach. Before I build a renewal strategy, can you look at the usage data and tell me whether adoption is actually strong?",
+                      "expected_output":  "GTM Data Strategist-led signal separation analysis. Must distinguish human adoption from automated batch activity, assess feature diversity, identify phantom activity, and provide a corrected adoption picture BEFORE any renewal strategy is built. Must NOT accept the headline usage number at face value.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "council",
+                      "scope":  "opportunity",
+                      "assertions":  [
+                                         {
+                                             "text":  "GTM Data Strategist avatar is invoked (explicitly named or its frameworks applied) — not just generic pipeline advice",
+                                             "type":  "avatar_routing"
+                                         },
+                                         {
+                                             "text":  "Output applies Signal Separation framework — distinguishes human adoption from automated batch, passive consumption, or phantom activity. Does NOT accept 28 active users at face value",
+                                             "type":  "framework_application"
+                                         },
+                                         {
+                                             "text":  "Output asks or examines at least 3 of: unique users generating credits, % of activity from top 3 users, feature diversity, usage timing patterns, seat-to-active-user ratio",
+                                             "type":  "diagnostic_depth"
+                                         },
+                                         {
+                                             "text":  "Output provides a corrected adoption assessment (e.g., real human adoption is X, not the headline 28 users) BEFORE any renewal strategy is discussed",
+                                             "type":  "data_before_strategy"
+                                         },
+                                         {
+                                             "text":  "Data gathering runs BEFORE any avatar advice is given (not after or in parallel)",
+                                             "type":  "data_gathering_sequence"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  38,
+                      "prompt":  "My team\u0027s pipeline is showing $42M coverage against a $12M quarterly target — that\u0027s 3.5x. But I don\u0027t trust the number. Last quarter we had similar coverage and missed by 8%. Can you diagnose whether my pipeline number is real before I present it to leadership?",
+                      "expected_output":  "GTM Data Strategist-led pipeline forensics applying the Five Tests. Must examine zombie opportunities, stage integrity, close date accuracy, duplicates, and activity recency. Must produce an adjusted pipeline number (or range) and explain the gap between reported and real pipeline. Must NOT just advise on pipeline strategy without first diagnosing the data.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "council",
+                      "scope":  "territory",
+                      "assertions":  [
+                                         {
+                                             "text":  "GTM Data Strategist avatar is invoked (explicitly named or its frameworks applied) — not just generic pipeline coverage advice from McMahon or Norton",
+                                             "type":  "avatar_routing"
+                                         },
+                                         {
+                                             "text":  "Output applies at least 3 of the 5 Pipeline Forensic Tests: zombie detection, stage integrity, close date accuracy, duplicate detection, activity recency",
+                                             "type":  "framework_application"
+                                         },
+                                         {
+                                             "text":  "Output produces an adjusted pipeline number or range that differs from the stated $42M — based on forensic findings, not opinion",
+                                             "type":  "diagnostic_output"
+                                         },
+                                         {
+                                             "text":  "Output explicitly connects last quarter\u0027s 8% miss to a data quality hypothesis (not just execution or conversion failure) — e.g., inflated pipeline from zombies, mis-staged deals, or duplicates",
+                                             "type":  "root_cause_quality"
+                                         },
+                                         {
+                                             "text":  "Data gathering runs BEFORE any avatar advice is given (not after or in parallel)",
+                                             "type":  "data_gathering_sequence"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  39,
+                      "prompt":  "We want to deploy AI lead scoring on our CRM data. We have 45,000 accounts and 180,000 contacts in Salesforce. Our VP of RevOps says we\u0027re ready because we have \u0027enough data.\u0027 Before we invest in a model, can you assess whether our data is actually ready to support AI?",
+                      "expected_output":  "GTM Data Strategist-led data readiness assessment using the Data Science Hierarchy of Needs and Expectations-as-Tests frameworks. Must NOT give generic \u0027data quality matters\u0027 advice. Must diagnose specific dimensions (completeness, accuracy, freshness) with testable expectations, assess hierarchy layers 1-3, and provide a clear ready/not-ready recommendation with specific remediation before AI deployment.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "council",
+                      "scope":  "strategy",
+                      "assertions":  [
+                                         {
+                                             "text":  "GTM Data Strategist avatar is invoked (explicitly named or its frameworks applied) — not just generic RevOps or systems advice",
+                                             "type":  "avatar_routing"
+                                         },
+                                         {
+                                             "text":  "Output applies the Data Science Hierarchy of Needs — explicitly assesses whether Layers 1-3 (Collection, Storage, Transformation) are sound before endorsing Layer 6 (AI/ML)",
+                                             "type":  "framework_application"
+                                         },
+                                         {
+                                             "text":  "Output defines specific testable expectations (assertions) for the CRM data — e.g., \u0027I expect X% of Account records to have Industry populated\u0027 — not vague quality statements",
+                                             "type":  "expectations_specificity"
+                                         },
+                                         {
+                                             "text":  "Output addresses at least 3 of the 6 DAMA dimensions (Completeness, Accuracy, Consistency, Freshness, Validity, Uniqueness) applied to the specific data objects mentioned (accounts and contacts)",
+                                             "type":  "dimensional_diagnosis"
+                                         },
+                                         {
+                                             "text":  "Output produces a clear ready/not-ready recommendation with specific remediation steps if not ready — not a hedge or \u0027it depends\u0027",
+                                             "type":  "actionability"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  40,
+                      "prompt":  "I\u0027m the CMO of a $50M ARR B2B SaaS company expanding into EMEA for the first time. We have strong product-market fit in North America with mid-market accounts. I need to build a marketing strategy for the EMEA launch. Where do I start?",
+                      "expected_output":  "Marketing Strategist-led strategy architecture. Must use the Seven Strategy Exercises framework as the structuring principle and start with Marketing Advantages identification before channel selection. Should reference the MOVE framework to diagnose which phase the EMEA expansion is in (likely Market phase — not Velocity). Must NOT default to \u0027run the same playbook as NA.\u0027",
+                      "should_trigger":  true,
+                      "interaction_mode":  "council",
+                      "scope":  "strategy",
+                      "assertions":  [
+                                         {
+                                             "text":  "Marketing Strategist avatar is invoked (explicitly named or its frameworks applied) — not just generic GTM strategy advice",
+                                             "type":  "avatar_routing"
+                                         },
+                                         {
+                                             "text":  "Output uses the Seven Strategy Exercises or Marketing Advantages framework as a structuring principle — not ad hoc advice",
+                                             "type":  "framework_application"
+                                         },
+                                         {
+                                             "text":  "Output identifies that EMEA expansion is in Market or early Operate phase (MOVE framework) and recommends phase-appropriate activities — NOT Velocity-phase activities like scaled demand gen",
+                                             "type":  "phase_diagnosis"
+                                         },
+                                         {
+                                             "text":  "Output asks about or identifies marketing advantages specific to this company before recommending channels or tactics",
+                                             "type":  "advantages_first"
+                                         },
+                                         {
+                                             "text":  "MEDDPICC, forecast categories, and sales-specific operational frameworks do NOT appear in the default response (department-aware suppression for CMO)",
+                                             "type":  "department_suppression"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  41,
+                      "prompt":  "I\u0027m the CMO. The CRO just told the CEO that only 18% of pipeline is marketing-sourced and wants to reallocate $800K of my $2M budget to outbound SDRs. I have 3 days to build a defence. Help me.",
+                      "expected_output":  "Marketing Strategist-led budget defence using Four Revenue Levers and dual attribution (sourced vs influenced). Should invoke Cross-Functional Arbitration (Mode 6) — steelman both sides before recommending. Must use marketing-review.md template structure for the defence document. Must NOT default to the CRO\u0027s perspective despite operator being in a sales-led organisation.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "council",
+                      "scope":  "strategy",
+                      "assertions":  [
+                                         {
+                                             "text":  "Marketing Strategist avatar is invoked and provides the marketing-native defence — not just Roth/McMahon advising how to respond to the CRO",
+                                             "type":  "avatar_routing"
+                                         },
+                                         {
+                                             "text":  "Output presents BOTH sourced and influenced pipeline data (dual attribution) — not just accepting the 18% sourced number as the complete picture",
+                                             "type":  "cross_functional_neutrality"
+                                         },
+                                         {
+                                             "text":  "Output steelmans the CRO\u0027s position before countering it — acknowledges the legitimate concern in the 18% number before presenting the broader picture",
+                                             "type":  "arbitration_quality"
+                                         },
+                                         {
+                                             "text":  "Output proposes a measurement framework both CMO and CRO can agree on — not just \u0027marketing is right, sales is wrong\u0027",
+                                             "type":  "shared_measurement"
+                                         },
+                                         {
+                                             "text":  "MEDDPICC and sales-specific operational frameworks do NOT auto-route into the response",
+                                             "type":  "department_suppression"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  42,
+                      "prompt":  "How is the business performing? Give me a read on where we are.",
+                      "expected_output":  "Scope D company-wide analysis. Must pull business-level aggregates (pipeline by segment, attainment by rep/team, NRR, stage distribution) — NOT account-level detail. Pattern identification at the business level. Extreme brevity (100-200 tokens for the summary). If operator is C-suite, personal-os should NOT load.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "orchestrated",
+                      "scope":  "company",
+                      "assertions":  [
+                                         {
+                                             "text":  "Data gathering uses Scope D protocol — business-level aggregates, not account-level detail. Pipeline by segment, attainment distribution, NRR, not individual deal inspection",
+                                             "type":  "scope_d_compliance"
+                                         },
+                                         {
+                                             "text":  "Output identifies 3-5 business-level patterns (e.g., which segment outperforming/underperforming, pipeline stage distribution, rep attainment spread) before any deep-dive",
+                                             "type":  "pattern_level"
+                                         },
+                                         {
+                                             "text":  "Output does NOT produce account-level analysis unless explicitly asked — stays at aggregate/pattern altitude",
+                                             "type":  "altitude_discipline"
+                                         },
+                                         {
+                                             "text":  "Output is concise and conclusion-first — appropriate for C-suite audience (not 800+ token deep-dive)",
+                                             "type":  "brevity"
+                                         },
+                                         {
+                                             "text":  "Data gathering runs BEFORE any analysis is given",
+                                             "type":  "data_gathering_sequence"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  43,
+                      "prompt":  "Sales and marketing are at odds. Our MQL acceptance rate is 52% — sales says the leads are garbage, marketing says sales isn\u0027t following up fast enough. The CEO has asked me to resolve this. What\u0027s actually happening and how do I fix it?",
+                      "expected_output":  "Cross-Functional Arbitration (Mode 6). Must steelman BOTH positions, identify the structural tension, surface what data would resolve it, and propose a shared measurement framework. Must use F-100 Dual-Axis Scoring. Must NOT pick a side.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "council",
+                      "scope":  "strategy",
+                      "assertions":  [
+                                         {
+                                             "text":  "Output steelmans BOTH sides — presents the strongest version of the sales argument AND the strongest version of the marketing argument before diagnosing",
+                                             "type":  "arbitration_structure"
+                                         },
+                                         {
+                                             "text":  "Output identifies the structural/system tension underneath the disagreement — not just \u0027both have a point\u0027",
+                                             "type":  "structural_tension"
+                                         },
+                                         {
+                                             "text":  "Output references F-100 Dual-Axis Scoring or equivalent fit vs engagement diagnostic — MQL acceptance at 52% suggests either the fit score threshold is wrong or the engagement score threshold is wrong",
+                                             "type":  "framework_application"
+                                         },
+                                         {
+                                             "text":  "Output proposes a shared measurement framework that both functions agree to — speed-to-lead SLA for sales, MQL quality score recalibration for marketing",
+                                             "type":  "shared_measurement"
+                                         },
+                                         {
+                                             "text":  "Output does NOT pick a winner — surfaces the trade-off and lets the operator decide",
+                                             "type":  "neutrality"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  44,
+                      "prompt":  "I\u0027m the VP of Demand Gen. My team\u0027s campaign drove 200 MQLs last month but the sales team says they\u0027re garbage and won\u0027t follow up. I need to figure out what\u0027s going wrong.",
+                      "expected_output":  "Marketing Strategist-led diagnosis. Must route to Marketing Strategist + F-100 (Dual-Axis Scoring), NOT to McMahon/MEDDPICC. Should diagnose whether the problem is fit (wrong accounts), engagement (low quality signals), or handoff (SLA breakdown). MEDDPICC should NOT appear in the default response — this is a marketing operator.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "orchestrated",
+                      "scope":  "strategy",
+                      "assertions":  [
+                                         {
+                                             "text":  "Marketing Strategist avatar or its frameworks are invoked — not McMahon deal inspection or sales-first frameworks",
+                                             "type":  "avatar_routing"
+                                         },
+                                         {
+                                             "text":  "Output diagnoses using marketing-native frameworks: Dual-Axis Scoring (fit vs engagement), Fuel/Engine/Audience model, or MQL definition audit — not MEDDPICC or deal qualification",
+                                             "type":  "framework_application"
+                                         },
+                                         {
+                                             "text":  "MEDDPICC, forecast categories, stage integrity, and sales-specific operational frameworks do NOT appear in the default response",
+                                             "type":  "department_suppression"
+                                         },
+                                         {
+                                             "text":  "Output asks whether the problem is fit (targeting wrong accounts/titles), engagement (low-quality signals triggering MQL), or handoff (SLA/speed-to-lead breakdown) — structured diagnosis, not generic advice",
+                                             "type":  "diagnostic_depth"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  46,
+                      "prompt":  "I\u0027m the VP of Marketing. We invested $180K in Demandbase 6 months ago for our ABM programme. Pipeline from named accounts hasn\u0027t improved. The CEO is asking whether we should renew. What\u0027s going wrong?",
+                      "expected_output":  "Marketing Strategist-led ABM diagnosis using ABM Maturity Model. Must diagnose the maturity mismatch — if the org is at Stage 0-1 but bought Stage 3-4 tooling, the platform isn\u0027t the problem. Should check: Do sales and marketing share the same account list? Is there joint account planning? Is engagement personalised or just targeted ads? Must NOT just recommend \u0027use Demandbase better.\u0027",
+                      "should_trigger":  true,
+                      "interaction_mode":  "council",
+                      "scope":  "strategy",
+                      "assertions":  [
+                                         {
+                                             "text":  "Marketing Strategist avatar is invoked and applies the ABM Maturity Model — diagnoses which stage the org is actually at vs which stage the tool requires",
+                                             "type":  "framework_application"
+                                         },
+                                         {
+                                             "text":  "Output diagnoses the maturity mismatch — the tool (Stage 3-4) vs the org\u0027s actual maturity (likely Stage 0-1). The tool isn\u0027t the problem; the organisational readiness is",
+                                             "type":  "root_cause_quality"
+                                         },
+                                         {
+                                             "text":  "Output checks for the common ABM failure modes: unilateral account selection, no joint planning with sales, treating ABM as targeted advertising rather than orchestrated engagement",
+                                             "type":  "diagnostic_depth"
+                                         },
+                                         {
+                                             "text":  "Output provides a specific remediation path — what to do before renewing Demandbase (e.g., align account list, build joint planning cadence, design 1:Few plays before 1:1)",
+                                             "type":  "actionability"
+                                         }
+                                     ]
+                  },
+                  {
+                      "id":  47,
+                      "prompt":  "Run the full pipeline forensics analysis on my team\u0027s upsell pipeline for the year — but this time I want the complete picture across all 8 AMs, not truncated at 200 records.",
+                      "expected_output":  "GTM Data Strategist pipeline forensics with paginated Salesforce queries to capture all team members. Must apply all Five Forensic Tests and Six Dimensions on the complete dataset. Should compare findings to the initial truncated analysis (200 records, June 7 2026) to validate or revise the initial findings.",
+                      "should_trigger":  true,
+                      "interaction_mode":  "council",
+                      "scope":  "territory",
+                      "assertions":  [
+                                         {
+                                             "text":  "Data gathering uses paginated or per-owner queries to capture ALL 8 AMs — not truncated at 200 records",
+                                             "type":  "data_completeness"
+                                         },
+                                         {
+                                             "text":  "All Five Forensic Tests are applied to the complete dataset: zombie detection, stage integrity, close date accuracy, duplicate detection, activity recency",
+                                             "type":  "framework_application"
+                                         },
+                                         {
+                                             "text":  "Output compares findings to the initial June 7 truncated analysis — validates, revises, or extends the initial findings",
+                                             "type":  "comparative_analysis"
+                                         },
+                                         {
+                                             "text":  "Output covers all 8 team members with per-AM breakdown — not just the 4 visible in the initial 200-record pull",
+                                             "type":  "team_completeness"
+                                         },
+                                         {
+                                             "text":  "Six Dimensions field completeness is recalculated on the full dataset",
+                                             "type":  "dimensional_diagnosis"
+                                         }
+                                     ]
+                  }
+              ],
+    "_created_by":  "GTM OS"
+}
