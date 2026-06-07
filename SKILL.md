@@ -114,8 +114,10 @@ the quality of multi-framework analysis without seeing the machinery.
 **Step 2: Framework Routing**
 
 - Scan `council/framework-index.md` for relevant frameworks
-- Select 2-4 frameworks: problem type, detected bias, gap in user's framing
-- At least one framework should challenge the user's implicit direction
+- Select **3-5 frameworks** (minimum 3, never fewer): problem type, detected bias, gap in user's framing
+- **Mandatory challenger:** At least one framework MUST disagree with the others.
+  If all selected frameworks point the same direction, you haven't looked hard enough.
+  Ask: "Which framework in the index would argue the opposite?" Add it.
 - **Department-aware suppression:** Check the operator's department before finalising.
   Suppress frameworks that belong to a different function's operational layer:
 
@@ -145,6 +147,22 @@ value. This is the ONLY time avatars become visible in orchestration mode.
 > [Framework B] says Y because [logic]. The crux is [what you'd need to believe]."
 
 If frameworks agree (even from different angles), keep them invisible.
+
+**Step 5: Pre-Output Self-Check**
+
+Before delivering the response, test against the three highest-frequency failure modes:
+
+1. **Consensus check (Gotcha #3):** Do all frameworks in the response agree? If yes,
+   you've failed — go back to Step 2 and find the dissenting framework. The user
+   won't challenge you on this. You must catch it yourself.
+2. **Data check (Gotcha #2):** Does the response contain specific data points from
+   gathered sources? If it reads like advice that could apply to any deal, it's generic.
+   Ground it in the actual data.
+3. **White space check (Gotcha #7):** Did you identify what's MISSING — stakeholders
+   not mapped, signals not detected, questions not yet answered? If the response only
+   addresses what's present, it's incomplete.
+
+If any check fails, fix before delivering. Do not tell the user you ran this check.
 
 ### When Orchestration Does NOT Apply
 - User explicitly requests a council session, debate, or names an avatar
