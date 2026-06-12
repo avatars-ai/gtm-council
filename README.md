@@ -37,6 +37,10 @@ and `council/roster.md` to Knowledge. See `docs/install/chatgpt.md`.
 **Codex**
 Copy `gtm-os/` to your project's skills directory.
 
+**OpenAI Agent Registries**
+`agents/openai.yaml` provides display name, short description, and default prompt
+for OpenAI-compatible agent registry formats.
+
 **Cursor / Windsurf**
 Copy `gtm-os/` to `.cursor/skills/` or `.windsurf/skills/`. See `docs/install/cursor-windsurf.md`.
 
@@ -168,7 +172,7 @@ See `protocols/execution-interfaces.md` for the full interface definitions and i
 | Skill | Repo | What It Does for GTM OS |
 |---|---|---|
 | **Firecrawl** | [`BexTuychiev/firecrawl-claude-code-skill`](https://github.com/BexTuychiev/firecrawl-claude-code-skill) | Feeds the data-gathering protocol with live web intelligence — competitor pricing pages, product positioning, company websites. Clean markdown extraction, structured data via JSON schemas, screenshots. Free tier: 1,000 credits/month. |
-| **Bright Data Skills** | [`brightdata/skills`](https://github.com/brightdata/skills) | Enterprise-grade competitive intelligence with anti-bot bypass. Replaces $15K-$50K/year CI tools (Crayon, Klue, AlphaSense). Built-in SWOT, Porter's Five Forces, and positioning matrix analysis. 60+ MCP tools. |
+| **Bright Data Skills** | [`brightdata/skills`](https://github.com/brightdata/skills) | Enterprise-grade competitive intelligence with anti-bot bypass. |
 | **Avoid AI Writing** | [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) collection | Second-pass audit layer on top of GTM OS's built-in humanizer. Audits and rewrites content to remove 21 categories of AI writing patterns with a 43-entry replacement table. Zero AI tells on customer-facing output. |
 
 ### Nice-to-Have

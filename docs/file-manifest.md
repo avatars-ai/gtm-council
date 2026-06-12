@@ -1,6 +1,6 @@
 # File Manifest — GTM OS
 
-*Last verified: 2026-06-07 (v0.1.0)*
+*Last verified: 2026-06-12 (v0.2.0)*
 *Audit cadence: Quarterly — verify all references resolve, delete unused files*
 
 ---
@@ -9,18 +9,19 @@
 
 | File | Purpose | Size |
 |---|---|---|
-| `SKILL.md` | Orchestration, data-gathering summary, modes, output standards | ~16 KB |
+| `SKILL.md` | Orchestration, data-gathering summary, modes, output standards | ~20 KB |
 | `council/roster.md` | Avatar routing table + debate pairings | ~7 KB |
-| `council/framework-index.md` | 145+ frameworks across 27 avatars — orchestration engine | ~65 KB |
+| `council/framework-index.md` | 145+ frameworks across 27 avatars — orchestration engine | ~68 KB |
 | `operator/universal-context.md` | Universal GTM principles, diagnostics, standards | ~14 KB |
+| `operator/team-os-template.md` | Team operating system template — copy to team-os.md and customise | ~10 KB |
 
 ## References (Extracted from SKILL.md)
 
-| File | Purpose |
-|---|---|
-| `references/data-gathering.md` | Full Mandatory Data-Gathering Protocol (Scopes A-D) |
-| `references/interaction-modes.md` | Modes 2-6 detailed specifications |
-| `references/capture.md` | Full /capture session learning protocol |
+| File | Purpose | Size |
+|---|---|---|
+| `references/data-gathering.md` | Full Mandatory Data-Gathering Protocol (Scopes A–D, 5-source minimum, white space) | ~8 KB |
+| `references/interaction-modes.md` | Modes 2–6 detailed specifications (council, debate, document review, arbitration) | ~5 KB |
+| `references/capture.md` | Full /capture session learning protocol, schema, integration steps | ~4 KB |
 
 ## Avatars (27 files + template + 2 systems)
 
@@ -56,7 +57,7 @@
 | `operator/universal-context.md` | Cross-functional tension maps, diagnostics, communication |
 | `operator/team-os-template.md` | Template — copy to team-os.md and customise |
 
-## Docs (5 files)
+## Docs (10 files)
 
 | File | Purpose |
 |---|---|
@@ -113,7 +114,9 @@
 
 | File | Purpose |
 |---|---|
-| `CLAUDE.md` | Pointer to SKILL.md (Claude Code, Cursor) |
+| `CLAUDE.md` | Pointer to SKILL.md for Claude Code and Cursor |
+| `AGENTS.md` | Pointer to SKILL.md for multi-agent platforms (mirrors CLAUDE.md) |
+| `agents/openai.yaml` | OpenAI agent definition — display name, short description, default prompt for OpenAI-compatible agent registries |
 | `README.md` | GitHub landing page |
 | `CHANGELOG.md` | Version history |
 | `CONTRIBUTING.md` | Contribution guide |

@@ -20,6 +20,7 @@ avatar files. Full files load only for explicit council sessions or debate mode.
 - Revenue Operations & Systems: F-089 to F-100
 - Metrics, Benchmarks & Diagnostics: F-101 to F-112
 - Operational Patterns: F-113 to F-115
+- Call Coaching Calibration: F-116
 - Framework Tension Maps (May + June 2026)
 
 ---
@@ -569,6 +570,22 @@ this convention and are training-data-derived.*
 | F-093 (Forecast Methodology) | F-087 (Three Tests) | Forecast categories are probabilistic. Three Tests demand binary (true/matters/actionable). | Forecast categories are inputs. Three Tests are the validation layer. A deal in "Commit" that fails Test 2 ("Does this matter?") should be reclassified. |
 | F-105 (One Variable) | F-088 (Book Triage) | One Variable says change one thing at a time. Book Triage during a multi-AM departure forces simultaneous changes. | Crisis overrides principle. Acknowledge the productivity dip (F-104), plan for it, but execute the triage. Document which variable is primary (book redistribution) and which are secondary (coaching, process). |
 | F-107 (Revenue per AE) | F-085 (Permissible Neglect) | Revenue per AE diagnostic may conclude "reps need more pipeline." Permissible Neglect says the system permitted account abandonment. | Both are right at different levels. F-107 is the output metric. F-085 is the system cause. If revenue per AE is low BECAUSE permissible neglect degraded the book, fix the system (F-085) not the symptom (more pipeline). |
+
+---
+
+## Call Coaching Calibration
+
+### F-116: Call-Type Classification Gate
+**Avatars:** Roberge (coaching diagnosis), McMahon (deal inspection — call-level), Campbell (coaching delivery)
+**Source:** [Practitioner — coaching protocol]
+**When to invoke:** Any call debrief, call coaching request, rep performance feedback
+**Core:** Full protocol in `protocols/coaching.md` (Step 0). Compressed cue: classify the call type BEFORE applying any coaching framework. Success metrics differ by type. Applying the wrong standard to the right performance = calibration error.
+**Three-question gate:**
+1. What type of call was this? (First discovery / second call / executive alignment / expansion / renewal / churn save / POC kick-off / commercial / stalled re-engagement / QBR)
+2. What was the appropriate success metric for that call type?
+3. Did the rep meet that metric — or a different, misapplied one?
+**Connects to existing frameworks:** F-109 (call quality metrics) and F-112 (SPICED stage-gating) operate AFTER the type is classified. F-116 is the pre-condition. Do not invoke F-109/F-112 without first running F-116.
+**Routing:** Roberge routes coaching diagnosis. McMahon routes deal-level call review. Campbell routes delivery calibration (intensity of feedback).
 
 ---
 

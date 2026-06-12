@@ -2,6 +2,43 @@
 
 All notable changes to GTM OS are documented here.
 
+## [0.2.0] — 2026-06-12
+
+### Avatar Additions
+
+- **The Financial Architect** (`avatars/the-financial-architect.md`, 32K) — new composite archetype covering Financial Decomposition, Customer Affordability Modelling, Gap-to-Opportunity Translation, Deal Economics Modelling, and Benchmarking. Built from research into Aswath Damodaran, Patrick Boyle, Madhavan Ramanujam, Kyle Poyar, and Jason Lemkin. Includes two supporting system files:
+  - `avatars/financial-architect-system/affordability-corridor-calculator.md` — structured affordability modelling tool
+  - `avatars/financial-architect-system/filing-analysis-checklist.md` — Boyle 4-layer filing analysis method
+- **The GTM Data Strategist** (`avatars/the-gtm-data-strategist.md`, 42K) — new composite archetype covering data quality diagnostics, signal separation, pipeline forensics, CRM health, and enrichment strategy. Largest avatar file in the roster.
+- **The Marketing Strategist** (`avatars/the-marketing-strategist.md`, 32K) — new composite archetype covering marketing strategy, ABM, category creation, demand generation, and marketing org design.
+
+### Avatar Updates
+
+- **Brent Adamson** — expanded from 7.5K to 10.7K (+3.2K). JOLT Effect framework added (status quo vs. indecision distinction), additional Challenger frameworks deepened, diagnostic questions expanded.
+- **John McMahon** — expanded from 6.7K to 9.1K (+2.4K). Paper process, POC discipline gates, and rep development diagnostics added. Champion vs. Economic Buyer distinction sharpened.
+
+### Framework Index
+
+- `council/framework-index.md` expanded from 58.9K to 68.4K (+9.5K). Financial Architect, GTM Data Strategist, and Marketing Strategist frameworks integrated. All new avatar frameworks indexed with routing rules and debate pairings.
+
+### Roster
+
+- `council/roster.md` expanded from 4.7K to 7.4K (+2.7K). Three new avatars added with domain coverage, trigger conditions, and debate pairings. Financial Architect paired with Revenue Architect and David Skok for deal economics debates.
+
+### Coaching Protocol
+
+- `protocols/coaching.md` rewritten from 2.0K to 5.0K (+3.0K). Skill/Will/System diagnostic expanded, TRM (Task-Relevant Maturity) framework integrated, 30/60/90 coaching plan structure added, rep progression stages (observation → absorption → independence) documented.
+
+### Eval Suite
+
+- `evals/evals.json` expanded from 18 to 39 evals. 21 new evals added covering: Financial Architect deal economics, GTM Data Strategist diagnostics, Marketing Strategist strategy sessions, coaching scenarios, M&A evaluation, council debate fidelity, executive presentation, and cross-functional arbitration. Assertion count now ~140.
+
+### Description
+
+- Removed `Do NOT trigger on:` anti-trigger block from frontmatter description. Description reduced from 1020 to 851 chars (173 chars of headroom). Anti-triggers are handled by the "Not in Scope" section in the SKILL.md body. Removing them from the description improves triggering accuracy — Claude tends to undertrigger skills and negative examples in the description compound that.
+
+---
+
 ## [0.1.0] — 2026-06-07
 
 ### Initial Release — Forked from gtm-council v1.0.10

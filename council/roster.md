@@ -40,6 +40,12 @@
 | Mega-deal ($250K+) | Reimer | McMahon, Voss, Skok |
 | Pipeline is empty | Blount | Ross, Efti |
 | Rep underperforming | Roberge | Campbell, Meadows |
+| Coaching a call debrief | Roberge | McMahon, Campbell |
+| Discovery call coaching | Braun | Adamson, Roberge |
+| Executive alignment call review | Revenue Architect | McMahon, Voss |
+| Renewal / expansion call coaching | McMahon | Kosoglow, Voss |
+| Churn save call coaching | Voss | Kosoglow, Depth Psychologist |
+| Commercial / pricing call review | Voss | McMahon, Cognitive Architect |
 | Customers churning | Kosoglow | Skok, Meadows |
 | How do I inspire the team? | Sinek | Campbell, Bartlett |
 | GTM architecture | van der Kooij | Ross, Skok |

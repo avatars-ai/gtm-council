@@ -4,14 +4,15 @@ description: >
   Trigger on: deal strategy, deal review, deal rescue, pricing, negotiation,
   MEDDPICC, discovery, stakeholder mapping, pipeline health, forecast, coverage,
   account strategy, expansion, renewal risk, churn save, competitive threat,
-  whitespace, coaching, rep development, territory design, book triage, comp design,
+  whitespace, call debrief, call-type classification, transcript coaching,
+  discovery call review, executive call review, renewal call coaching,
+  churn save coaching, rep development, territory design, book triage, comp design,
   GTM operations, RevOps, NRR, lead routing, data quality, pipeline forensics,
-  adoption vs automation, marketing strategy, ABM, positioning, budget defence,
-  channel selection, marketing-sales alignment, executive communication, business
-  cases, M&A evaluation, QBR prep, CRO briefing, win-loss analysis, multi-threading,
-  buying committee, champion development, deal economics, vendor consolidation.
-  Do NOT trigger on: writing code, building emails, setting up marketing automation,
-  selecting tools/products, financial modelling, HR tasks, general knowledge questions.
+  marketing strategy, ABM, positioning, budget defence, channel selection,
+  marketing-sales alignment, executive communication, business cases, M&A evaluation,
+  QBR prep, CRO briefing, win-loss analysis, multi-threading, buying committee,
+  champion development, deal economics. Augments call tools or direct transcript
+  upload.
 license: Custom. See LICENSE.md
 compatibility: >
   Works with Claude (Code, .ai, API), ChatGPT (Custom GPTs, Projects, Codex),

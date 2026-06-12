@@ -50,7 +50,7 @@ intelligence from live web pages, crawl documentation sites.
 | Skill | Repo | Strengths |
 |---|---|---|
 | **Firecrawl** | `BexTuychiev/firecrawl-claude-code-skill` | Clean markdown extraction, structured data via JSON schemas, screenshot capture, doc site crawling. Free tier: 1,000 credits/month. |
-| **Bright Data Skills** | `brightdata/skills` | Enterprise-grade scraping with anti-bot bypass. 60+ MCP tools. Built-in competitive intel skill with SWOT, Porter's Five Forces, positioning matrix. Replaces $15K-$50K/year CI tools. |
+| **Bright Data Skills** | `brightdata/skills` | Enterprise-grade scraping with anti-bot bypass. |
 | **Web Scraper** | `yfe404/web-scraper` | Self-critiquing intelligence reports with gap analysis and staleness warnings. 5-phase reconnaissance with automatic strategy selection. Production-ready Apify Actor output. |
 
 **Graceful fallback (no execution skill):**
