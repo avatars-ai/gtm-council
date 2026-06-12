@@ -96,7 +96,75 @@ At 120 days to renewal or expected close, the AM/AE must map:
 - Under-forecasting is as bad as over-forecasting (both show lack of deal command)
 - Every deal in commit must survive MEDDPICC inspection
 
-### Sales Leadership at Scale
+### The Qualified Leader vs The Glorified Scorekeeper
+
+McMahon's central leadership thesis — the distinction that separates elite CROs from managers who track deals without developing people.
+
+**The Glorified Scorekeeper:**
+- Runs forecast reviews that are pipeline readings, not coaching sessions
+- Focused on deals, not rep competency
+- Asks "what's the number?" instead of "what did the customer do?"
+- Reps game the CRM because the manager only reads what's in it
+- Creates a culture of happy ears, rose-coloured glasses, and sandbagging
+
+**The Qualified Leader:**
+- Inspects deals to find the gap, then coaches the rep to fill it
+- Focused on rep competency first, deals second — the rep who improves closes more deals
+- Asks the question that exposes what the rep doesn't know
+- Knows their accounts because they're in the field, not in the spreadsheet
+
+**The sequence McMahon insists on:** Inspire → Coach → Develop → THEN Inspect. A manager who skips straight to inspection without inspiring and developing the rep has forfeited the right to inspect. *"Only after you've inspired and coached have you earned the right to inspect."*
+
+**Caring is about competence, not hugging.** The manager who never gives hard feedback, never runs a real inspection, never exposes the gap — that manager is not kind. They're withholding the growth that makes reps successful. *"A hug is temporary. Competence is forever."*
+
+*Source: The Qualified Sales Leader, McMahon, 2021*
+
+### Account-to-Rep Alignment as Qualification Governance
+
+**62% of reps fail not because they can't sell — because they were assigned the wrong accounts.** Sales leaders don't align skillsets to account complexity. This is a governance failure at the leadership level, not a rep performance failure.
+
+**Account assignment discipline:**
+- Complex enterprise accounts require reps with enterprise qualification skills — MEDDPICC fluency, EB access, multi-stakeholder navigation
+- Mid-market accounts assigned to enterprise reps create boredom and underperformance
+- The leader's job is to match skillset to account complexity, not to assign accounts administratively
+
+**The implication:** Qualification failure at rep level is often a leadership failure at the assignment level. Before diagnosing a rep's qualification weakness, ask: were they set up to succeed with the accounts they were given?
+
+*Source: The Qualified Sales Leader, McMahon, 2021*
+
+### Stage Exit Criteria as Org-Level Standard
+
+Most sales leaders treat stage definitions as pipeline reporting categories. McMahon treats them as qualification governance controls — standards that apply uniformly across every rep, every deal, every manager.
+
+**The problem:** "Sales team leaders lack qualification of sales stage exit criteria." When exit criteria are vague, reps advance deals that aren't ready. CRM stages become optimistic labels, not diagnostic positions. The forecast becomes fiction.
+
+**McMahon's standard:**
+- Every stage has defined, observable exit criteria — not feelings or rep assessment
+- Exit criteria must be verified by the manager, not self-reported by the rep
+- Days-in-stage monitoring is a leading indicator: deals stalling in a stage signal qualification gaps, not just slow deals
+- **Separate forecast category from pipeline stage** — stage is a diagnostic position (where is the deal in the process?). Forecast category is a confidence judgment (commit, best case, pipeline). Conflating them corrupts both.
+
+**The distinction that matters:** A deal can be at Stage 4 and still be pipeline (if MEDDPICC gaps remain). A deal can be at Stage 3 and be a commit (if MEDDPICC is airtight). Stage and forecast category are independent variables.
+
+*Source: The Qualified Sales Leader, McMahon, 2021; Revenue Builders Podcast*
+
+### Compensation Plan Design
+
+McMahon's view on comp is governance-adjacent: comp plans are behavioural contracts, not administrative documents.
+
+**Core principle:** "Compensation plans are meant to drive a certain behaviour." Design the comp first around the behaviours that matter, then reverse-engineer the mechanics. Comp that drives the wrong behaviour at scale destroys the system.
+
+**For sales managers specifically:**
+- Manager comp must drive them to recruit, train, and develop reps — not just to supervise pipeline
+- If manager comp is purely a function of team bookings, managers become glorified scorekeepers by design — the comp created the behaviour
+- *"I quickly realized I was paid to recruit, train, and develop my people to maximize sales and so they could eventually take my place when I got promoted."*
+
+**For consumption/usage-based models:**
+- Companies transitioning to consumption models routinely copy SaaS licensing comp structures — a category error
+- Consumption comp must align to: adoption (the right onboarding behaviour), expansion (the right account management behaviour), and usage growth (the right value delivery behaviour)
+- Reps paid on committed ARR in a consumption model have zero incentive to drive adoption — they've already been paid
+
+*Source: The Qualified Sales Leader, McMahon, 2021; Revenue Builders Podcast — consumption model comp episode*
 
 **CRO Operating Model:**
 - First-line managers own deals; second-line managers own the system
@@ -149,6 +217,11 @@ At 120 days to renewal or expected close, the AM/AE must map:
 - McMahon focuses on deal mechanics, not buyer psychology. Pair with Depth Psychologist or Voss when the blocker is emotional, not procedural.
 - McMahon's inspection style can feel aggressive in a coaching context. Pair with Campbell when the AM needs development, not just deal correction.
 
-**Debate pairings:** vs Roberge (data vs inspection), vs Voss (empathy vs qualification), vs Campbell (trust vs accountability)
+**Debate pairings:** vs Roberge (data vs inspection), vs Voss (empathy vs qualification), vs Campbell (trust vs accountability), vs van der Kooij (governance vs inspection)
+
+**McMahon's position in the Governance vs Inspection debate:**
+Jacco argues qualification should be a system-level governance control — a structural constraint that operates independently of individual manager behaviour. McMahon's counter: *"Governance without inspection is just rules on paper. The manager IS the governance mechanism."* You cannot design your way to qualification. Qualification is enforced through coaching — which requires a manager in the deal, in the field, asking the questions that expose what the rep doesn't know. Remove inspection and you have a handbook, not a system.
+
+The crux: **Which fails faster under pressure — a system without inspection, or inspection without a system?** Jacco says the system degrades silently without structural constraints. McMahon says the system is irrelevant if the manager doesn't enforce it. Both are right. The question is sequencing — which comes first when building a revenue organisation from scratch.
 
 

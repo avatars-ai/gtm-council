@@ -50,6 +50,8 @@ Core thesis: **A system produces its own behaviour. If you want different outcom
 - In GTM: prospecting today produces pipeline in 90 days; hiring today produces revenue in 6-12 months
 - Delays cause overshoot (too much) and undershoot (too little) — people act on current symptoms, not future effects
 - **Skok's 30-Day Rule alignment:** Prospecting discipline today → pipeline health 90 days from now
+- **Revenue governance delay:** The lag between ICP drift (cause) and NRR decline (effect) is typically 2-3 quarters — long enough for the cause to be invisible by the time the effect arrives. Leaders see bookings growing and interpret the system as healthy. The damage only shows in the cohort that churns 2-3 quarters later. This delay is why governance failures feel sudden — the system was degrading silently the entire time.
+- *"Delays that are too long cause damped, sustained, or exploding oscillations. At the extreme they cause overshoot and collapse."* The revenue governance collapse sequences (Jacco) are instances of delayed feedback — the system overshoots into a regime of accelerating decay before the signal reaches leadership.
 
 ### The 12 Leverage Points (Places to Intervene in a System)
 
@@ -69,6 +71,21 @@ Core thesis: **A system produces its own behaviour. If you want different outcom
 1. **Transcending paradigms** — The ability to change the paradigm itself
 
 **Key Insight for GTM:** Most sales leaders intervene at levels 12-10 (tweak numbers, change org structure, adjust process). The highest-leverage interventions happen at levels 5-2 (change the rules, change the information flows, change the goals, change the paradigm).
+
+**Revenue Governance Leverage Point Mapping:**
+
+| Intervention | Leverage Level | What It Changes |
+|---|---|---|
+| Adjust quota or discount ceiling | #12 Parameters | Numbers — lowest impact, easiest to reverse |
+| Add more CRM fields or stage gates | #10 Structure | Process architecture — catches symptoms, not causes |
+| Shorten reporting cycle on NRR | #9 Delays | Speed of feedback — helps but doesn't fix the incentive |
+| Strengthen qualification enforcement | #8 Balancing loops | Corrective mechanism — slows the decay |
+| Change what gets measured (bookings → NRR) | #6 Information flows | Who sees what — mid-high leverage |
+| Change comp plan to reflect lifecycle quality | #5 Rules | Incentive architecture — high leverage |
+| Change the North Star metric from bookings to NRR | #3 Goals | What the system optimises for — very high leverage |
+| Change the belief that "all revenue is good revenue" | #2 Paradigm | The mindset from which rules and goals arise — highest practical leverage |
+
+Jacco's Revenue Operating Governance framework operates primarily at levels #5 (Rules — qualification standards, comp design) and #3 (Goals — NRR as North Star). McMahon's inspection approach operates at #8 (Balancing loops — strengthening the corrective mechanism). Both are necessary; neither alone is sufficient. Meadows would say: fix the goal and the rules first, then build the inspection mechanism to enforce them.
 
 ### System Archetypes (Common Patterns)
 
@@ -92,9 +109,24 @@ Core thesis: **A system produces its own behaviour. If you want different outcom
 - Individuals acting in self-interest deplete a shared resource
 - GTM Example: Multiple reps targeting the same accounts → prospect fatigue → brand damage → lower response rates for everyone
 
-**Eroding Goals:**
-- When performance falls short, the goal is lowered rather than the performance improved
-- GTM Example: Miss quota → lower next quarter's target → miss again → lower again → organisational acceptance of mediocrity
+**Drift to Low Performance (Eroding Goals):**
+- Meadows' precise framing: *"Allowing performance standards to be influenced by past performance, especially if there is a negative bias in perceiving past performance, sets up a reinforcing feedback loop of eroding goals that sets a system drifting toward low performance."*
+- The mechanism: actual performance falls → standard is adjusted downward to close the gap → less corrective action is required → performance falls further → standard adjusts again → mediocrity becomes normal
+- The negative bias amplifies it: bad results are weighted more heavily than good ones in setting the new standard. The system anchors on failure.
+- GTM examples: Miss quota → lower next quarter's target → miss again → ICP standards drift under pressure → qualification thresholds lower each quarter → discount ceilings creep higher → each adjustment makes the next one more likely
+- **Antidote:** Keep standards absolute — do not allow past performance to set the new standard. Make goals sensitive to the **best** performances of the past, not the worst. *"Don't erode the goal."* When the gap between desired and actual performance grows, take corrective action — never adjust the goal downward to close the gap.
+- Revenue governance connection: This is precisely what Jacco's Value Invariants framework prevents. Invariants are absolute standards — ICP definition does not flex under quota pressure, pricing guardrails do not move when a deal is at risk. Making these invariant is the structural antidote to drift.
+
+*Source: Thinking in Systems, Meadows, 2008, Chapter 5*
+
+**Rule Beating:**
+- When the rules of the system are clear but the consequences of breaking them are low, actors find creative ways to appear compliant while subverting the intent
+- The system produces compliance theatre, not the underlying behaviour the rule was designed to create
+- GTM examples: CRM stage gaming (advancing deals to Stage 3 without confirmed champions to avoid manager scrutiny); pipeline inflation (entering deals that aren't real to hit coverage targets); forecast sandbagging (understating commit to protect against miss)
+- McMahon's observation that *"sales forecasts are inaccurate because most reps game the CRM system"* is a direct instance of rule beating — the rule (update the CRM) is followed; the intent (accurate forecast) is subverted
+- **Antidote:** Restructure the information flow so that consequences of rule beating are visible and immediate. If pipeline inflation is punished by loss of territory rather than rewarded by avoiding inspection, the incentive to beat the rule disappears. This is a #6 leverage point intervention (information flows), not a #12 intervention (adding more rules).
+
+*Source: Thinking in Systems, Meadows, 2008, Chapter 5*
 
 ### Mental Model Awareness
 

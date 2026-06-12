@@ -85,18 +85,66 @@ When a rep underperforms, the root cause is ONE of three:
 
 ### Compensation Design
 
-**Roberge's Comp Principles:**
-1. **Simplicity** — Rep should calculate their commission on a napkin
-2. **Alignment** — Comp should drive the behavior the company needs
-3. **Immediacy** — Short feedback loops between behavior and reward
-4. **Fairness** — Similar effort should yield similar compensation
+**Roberge's Three-Factor Test (Simple, Aligned, Immediate):**
 
-**Comp Levers:**
-- **Base/Variable Split:** Higher base for complex, long-cycle enterprise; higher variable for transactional
-- **Accelerators:** Non-linear (1x below quota, 1.5x at quota, 2x above) to reward top performers
-- **Decelerators:** Controversial — Roberge generally opposes (demotivates entire team for marginal budget savings)
-- **SPIFs:** Short-term behavior change (new product launch, end-of-quarter push); use sparingly
-- **Clawbacks:** Only on churned revenue within 6-12 months (skin in the game)
+Every comp plan must pass all three:
+1. **Simple** — Salespeople should not need a spreadsheet to calculate their commission. If too many variables are included, reps become confused about which behaviours drive the largest paycheck. Complexity = misaligned incentives.
+2. **Aligned** — Each year, ask: "What is the most important goal the company needs to achieve? Customer count? Profitability? Customer success? Market share? New product distribution?" Then: "How can the comp plan be aligned with this goal?" Alignment changes as the company changes.
+3. **Immediate** — When salespeople succeed, they should see it in their paycheck immediately. When they fail, they should feel it immediately. Any delay between behaviour and financial outcome reduces the plan's impact. Delayed rewards are weak governance signals.
+
+**The HubSpot Comp Evolution — The Definitive Case Study:**
+
+Three plans, each teaching something critical about governance through incentives:
+
+*Plan 1 — The Hunt:* $2 per $1 MRR closed, four-month clawback on commission if the customer churned. Intended to align reps to customer success. Actual result: customer churn exploded. The month with the highest churn was month 4 — precisely when the clawback expired and reps were no longer at financial risk. The plan created the behaviour it was designed to prevent.
+
+*Plan 2 — The Retention Shift:* Evolved to encourage retention as the customer base grew. Partial success — reduced churn incentive misalignment but created new complexity.
+
+*Plan 3 — The Governance Model:* 50% commission paid on the first month's payment, 25% on the sixth month, 25% on the twelfth month. If the customer paid month-to-month, the rep waited a full year for their full commission. If the customer paid annually upfront, the rep earned the full commission immediately. The key insight: annual prepay correlated strongly with customer success — customers who committed financially were more likely to adopt and succeed. The comp plan made annual prepay desirable to the rep AND to the customer.
+
+*"In thinking back to the critical strategic shifts HubSpot made as a business, most of them were executed via changes to the sales compensation plan."* — Roberge
+
+**Stage-Specific Comp Design:**
+Comp must evolve with the stage of the business. Using the wrong comp plan for the stage is a governance error:
+
+| Stage | Primary Goal | Comp Design Principle |
+|---|---|---|
+| Early (<$10M ARR) | Customer count | Hunting plan — volume incentives, fast payback |
+| Growth ($10-50M ARR) | Retention + expansion | Clawback on churn, partial commission on renewal |
+| Scale ($50M+ ARR) | LTV and efficiency | Annual prepay incentives, expansion credit, margin floors |
+
+The single most common error: companies that successfully hunt their way to $10M continue using a hunting comp plan past $50M. The plan that got them here is what's killing NRR now.
+
+*Source: The Sales Acceleration Formula, Roberge, 2015; HubSpot case study*
+
+### Buyer Actions as Qualification Data
+
+Most reps qualify deals based on what they believe the customer feels. Roberge qualifies deals based on what the customer does.
+
+**Buyer action signals that qualify a deal (in order of signal strength):**
+1. Did the buyer confirm that the summary of the discovery call was accurate? (Engagement signal)
+2. Did a VP- or C-level executive attend the product overview? (Authority signal)
+3. Has someone in Finance reviewed the ROI study? (Budget engagement signal)
+4. Did the buyer open the proposal? (Interest signal)
+5. Did the buyer share the proposal with a colleague? (Internal advocacy signal)
+
+**Why this matters:** Rep assertions ("they seemed very interested") are noise. Buyer actions are data. A rep who says "the CEO is fully bought in" but the CEO has never attended a single meeting has given you an opinion, not a fact. This is where Roberge and McMahon converge: MEDDPICC inspection should focus on what buyers DID, not what reps BELIEVE.
+
+**The data integrity prerequisite:** The entire Sales Acceleration Formula depends on data being accurate. If reps game the CRM (enter fake stages, log calls that didn't happen), the coaching model produces garbage outputs. Data hygiene is not an administrative task — it is the foundation of the management system. A manager coaching from bad data is not data-driven management; it is sophisticated random walk.
+
+*Source: The Sales Acceleration Formula, Roberge, 2015*
+
+### Marketing-Sales Revenue Accountability
+
+Roberge's approach to aligning marketing and sales avoids the attribution trap by holding both functions accountable to the same downstream metric.
+
+**The principle:** Marketing must be accountable to revenue, not MQL volume. When marketing is measured on lead count or MQL velocity, they have no incentive to qualify. Every lead looks like a success. When marketing is measured on the revenue that came from their leads, their incentive aligns with sales — quality over volume.
+
+**The practical mechanism:** Define a Buyer Matrix (buyer persona × buyer journey stage) that determines when a lead is ready to pass to sales. The threshold for passing is set by data, not opinion — specifically by the historical close rates of leads at each stage of the journey. Pass leads too early and sales wastes capacity. Pass too late and marketing over-qualifies. Data determines the line.
+
+**Governance connection:** This is Roberge's version of Jacco's "data must govern decisions, not allocate credit" principle — the antidote to the attribution debate. When both functions share a revenue number, there's nothing to fight about.
+
+*Source: The Sales Acceleration Formula, Roberge, 2015*
 
 ### Scaling Sales Teams
 

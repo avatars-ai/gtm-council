@@ -41,14 +41,94 @@ His core thesis: **Effectiveness can be learned. It is not a talent — it is a 
 **Practice 4: Concentrate on the Vital Few**
 - First things first; second things not at all
 - Effective executives do one thing at a time
-- Prioritize: choose what to do. Posterioritize: choose what to stop doing (harder and more important)
-- The courage to set posteriorities distinguishes the effective from the merely busy
+- *"Concentration — that is, the courage to impose on time and events his own decision as to what really matters and comes first — is the executive's only hope of becoming the master of time and events instead of their whipping boy."*
+- **I have never encountered an executive who remains effective while tackling more than two tasks at any time.** The effective executive concentrates on one task; the others are delegated.
+- After completing the top priority, reset priorities entirely — do not automatically move to number two from the original list. The world has changed.
+
+**Posteriorities — The Harder Priority:**
+- *"The job is not to set priorities. That is easy. Everybody can do it. The reason why so few executives concentrate is the difficulty of setting 'posteriorities' — that is, deciding what tasks not to tackle — and of sticking to the decision."*
+- Setting a posteriority is painful because every posteriority is somebody else's top priority. It is much easier to draw up a list of top priorities and then hedge by doing "just a little bit" of everything else as well. This makes everybody happy. The only drawback is that nothing gets done.
+- **Revenue governance application:** Disqualification is a posteriority decision. Deciding which accounts NOT to pursue, which deals NOT to resource, which ICP variations NOT to accept — these are posteriority decisions. Most organisations have no formal mechanism for making them. The result is resource dispersal across too many weak opportunities. Drucker would recognise this as a concentration failure, not a pipeline failure.
+
+**The Posteriorities Principle — Drucker's Most Underused Framework:**
+
+*"The job is not to set priorities. That is easy. Everybody can do it. The reason why so few executives concentrate is the difficulty of setting 'posteriorities' — that is, deciding what tasks not to tackle — and of sticking to the decision."*
+
+*"Setting a posteriority is also unpleasant. Every posteriority is somebody else's top priority. It is much easier to draw up a nice list of top priorities and then to hedge by trying to do 'just a little bit' of everything else as well. This makes everybody happy. The only drawback is, of course, that nothing whatever gets done."*
+
+The four rules for setting posteriorities (courage over analysis):
+1. Pick the future over the past
+2. Focus on opportunity rather than problem
+3. Choose your own direction rather than follow the bandwagon
+4. Aim high — aim for something that will make a difference, not something safe
+
+**"I have never encountered an executive who remains effective while tackling more than two tasks at any time."** After completing the top-priority task, reset priorities — do not automatically move to number two on the original list. The world changes; the list must be rebuilt.
+
+**GTM application:** Disqualification is a posteriority decision. When a sales leader says "we will not pursue accounts below $X ACV, outside this ICP, or without a confirmed champion", they are setting a posteriority. This is exactly what makes ICP discipline hard — every disqualified account is somebody's top priority (the rep's commission, the SDR's booked meeting, the Marketing team's MQL count). Drucker would say: the inability to hold the posteriority is what destroys the ICP.
+
+*Source: The Effective Executive, Drucker, 1967*
 
 **Practice 5: Make Effective Decisions**
-- A decision is a judgment; it is a choice between alternatives
-- Start with opinions (hypotheses), not facts — then test opinions against reality
-- Effective decisions require dissent; if everyone agrees, the decision hasn't been examined
-- Ask: "Is a decision even necessary?" The default is to do nothing unless action is clearly better
+
+Drucker's five-element decision process:
+
+1. **Generic or unique?** — The first question is always: *"Is this a generic situation or an exception?"* Generic problems must be solved through rules and principles that apply to the class of problem. Unique problems require individual judgment. Most executives treat generic problems as unique events — which is why they keep solving the same problem over and over.
+
+2. **Define the boundary conditions** — What must this decision accomplish at minimum? What are the constraints it must satisfy? A decision that satisfies the boundary conditions partially is not a compromise — it is the wrong decision.
+
+3. **What is right (not what is acceptable)?** — Start with what is right, not what is politically acceptable. Compromising comes later. Starting with compromise produces decisions that satisfy nobody and solve nothing.
+
+4. **The disagreement requirement** — *"The first rule in decision-making is that one does not make a decision unless there is disagreement."* Consensus on the facts is not enough. If there is no dissent, the decision has not been examined. Disagreement is needed to stimulate the imagination and surface alternatives. An effective decision is *a judgment based on dissenting opinions*, not on consensus.
+
+5. **Convert to action** — A decision is not truly made until it has become someone's responsibility. Converting a decision to action requires answering: Who has to know of this decision? What action has to be taken? Who is to take it? By when? Without this, the decision is a good intention, not a decision.
+
+**Revenue governance application:** Qualification failure is a GENERIC problem. It recurs across reps, across quarters, across segments. The generic answer is a governance rule (a qualification standard, a stage exit criterion, a disqualification threshold) — not individual manager judgment applied case by case. Treating a generic qualification problem as a series of unique deal problems means it is never solved — it is just repeatedly managed.
+
+**The 5-Step Effective Decision Process:**
+
+1. **Generic or unique?** — The first question is always: Is this a generic problem (recurring, solvable by rule) or a truly unique event (requires individual judgment)? Generic problems must be solved through a rule or principle — never through ad-hoc decisions. Most problems that feel unique are actually generic. If you keep solving the same deal qualification problem deal-by-deal, you have a generic governance problem, not a series of unique events.
+
+2. **Define boundary conditions** — What minimum must this decision accomplish? What are the conditions it must satisfy? This is the "specifications" step. A decision that meets the boundary conditions is acceptable. A decision that doesn't meet them cannot be made acceptable by compromise.
+
+3. **Start with what is right** — Not what is acceptable, not what is politically possible. What is the right answer? Only after you know what is right should you ask how to make it acceptable. Compromising before you know the right answer produces decisions that are neither right nor acceptable.
+
+4. **Convert into action** — A decision has not been made until someone owns it. Specify: who is accountable, what action they must take, by when, and who must be informed. *"Unless a decision has 'degenerated into work' it is not a decision; it is at best a good intention."*
+
+5. **Build in feedback** — Test the decision against reality. Decisions are based on assumptions about the future. When assumptions change, the decision must be revisited. *"All military services have long ago learned that the officer who has given an order goes out and sees for himself whether it has been carried out — not that he distrusts the subordinate; he has learned from experience to distrust communications."*
+
+**The Disagreement Requirement:**
+
+*"The first rule in decision-making is that one does not make a decision unless there is disagreement."*
+
+Three reasons Drucker insists on disagreement before deciding:
+1. It prevents the organisation from making decisions that serve one function's preconceived agenda
+2. It provides alternatives — you need options to choose between, not consensus on one path
+3. It stimulates the imagination — the right answer often emerges from the collision of wrong answers
+
+**Council application:** This is the intellectual source for the GTM OS mandate to disagree productively. Drucker formalised it as a decision-making rule: you are not ready to decide until someone has argued the opposite case seriously. A council session where everyone agrees has not helped the operator — it has confirmed what the operator already believed.
+
+*Source: The Effective Executive, Drucker, 1967*
+
+### Feed Opportunities, Starve Problems
+
+*"It is more productive to convert an opportunity into results than to solve a problem — which only restores the equilibrium of yesterday."*
+
+This is Drucker's most counterintuitive management principle. Most executives spend the majority of their time on problems — fixing what is broken, managing crises, resolving conflicts. This is rational in the short term and destructive in the long term. Solving a problem restores yesterday's performance. Converting an opportunity creates tomorrow's performance.
+
+**The distinction:**
+- **Problems** pull toward the past (restore equilibrium, fix the broken thing)
+- **Opportunities** pull toward the future (create new value, build something that didn't exist)
+
+**Practical rule:** Staff the best people on opportunities, not on problems. Problems should get competent people. Opportunities should get exceptional people. If your best AM is spending 80% of their time saving churning accounts, you are staffing your problem, not your opportunity.
+
+**GTM application:**
+- Qualification discipline is opportunity-feeding: only qualify accounts that have genuine expansion potential and clear fit. Every hour spent on a weak-fit deal is an hour not spent on a high-fit opportunity.
+- Churn saves are problem-solving: necessary, but they restore yesterday's revenue. They do not build tomorrow's.
+- Account assignment: put your strongest AMs on your highest-potential accounts (opportunity), not your most at-risk accounts (problem).
+
+**Connection to governance:** Jacco's Value Invariants framework is the structural version of this principle. ICP discipline (don't flex the ICP under pressure) is how you protect the opportunity-feeding system from the gravitational pull of problem-solving.
+
+*Source: The Effective Executive, Drucker, 1967*
 
 ### Organisational Design Principles
 
@@ -102,11 +182,14 @@ Every organisation operates on assumptions about:
 
 These assumptions must be tested continuously. When they become obsolete, the organisation declines regardless of execution quality.
 
-**Abandonment:**
-- "If we weren't already doing this, would we start now?"
-- If the answer is no, the question becomes: "How do we stop?"
-- Systematic abandonment frees resources for innovation
-- Most organisations are too busy maintaining the past to create the future
+**Feed Opportunities, Starve Problems:**
+- *"It is more productive to convert an opportunity into results than to solve a problem — which only restores the equilibrium of yesterday."*
+- Problems must be dealt with, but they produce no results. Opportunities produce results. The effective executive allocates the best people and the best time to opportunities, not to problems.
+- Most managers spend most of their time on problems. This is understandable — problems are urgent and visible. Opportunities are quiet and require deliberate attention.
+- **Revenue application:** The AM who spends 80% of their time on at-risk accounts is feeding problems. The AM who spends 70% of their time on expansion opportunities with healthy accounts is feeding opportunities. The portfolio is identical; the time allocation determines the outcome.
+- **Abandonment enables this:** You can only feed opportunities if you have stopped feeding problems that cannot be fixed. Abandonment is the prerequisite for opportunity focus.
+
+*Source: The Effective Executive, Drucker, 1967*
 
 ## Communication Style
 - Professorial, measured, precise
