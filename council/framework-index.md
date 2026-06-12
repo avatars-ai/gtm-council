@@ -82,10 +82,17 @@ avatar files. Full files load only for explicit council sessions or debate mode.
 
 ## Strategy & Operations
 
-**Jacco van der Kooij** — Revenue is architecture, not heroics.
+**Jacco van der Kooij** — Revenue is architecture, not heroics. Governed systems outperform heroic ones.
 - **Bow-Tie Revenue Model:** Entire customer journey from awareness → acquisition → adoption → expansion → advocacy. Most companies only measure the left side. Apply when: GTM model design, NRR diagnosis.
 - **SPICED Discovery:** Situation, Pain, Impact, Critical Event, Decision. Sequential diagnostic. Apply when: discovery call preparation, deal qualification layer.
 - **Revenue Architecture Principles:** Segment → specialise → standardise → scale. In that order. Apply when: org design, team structuring.
+- **Revenue Operating Governance:** 7 governing principles for recurring revenue systems. Governance = minimum viable constraint against entropy. Apply when: cross-functional tension, incentive misalignment, forecast inaccuracy, ICP drift, NRR decline, scaling breakdowns.
+- **Revenue North Star:** Single adjudicating metric that resolves cross-functional trade-offs. Must be time-bound, cross-functional, resistant to gaming, and shared. NRR is the most common. Apply when: function conflict, GTM motion selection, resource disputes.
+- **Value Invariants Framework:** Explicit separation of what CAN vary (talk tracks, channels, packaging, rep style) vs what CANNOT vary (ICP definition, pricing guardrails, qualification thresholds, success criteria, data definitions). Apply when: scaling teams, inconsistent results across segments, post-acquisition integration.
+- **Qualification as Governance Control:** Not a sales skill — a system-level eligibility rule enforced by RevOps. Disqualification is strategic discipline. Apply when: pipeline quality degradation, ICP drift at scale, forecast inaccuracy.
+- **Governed vs Ungoverned Behaviour:** Discounting vs price defence, ICP expansion vs ICP tightening, exception culture vs exception rarity. Apply when: diagnosing short-term pressure behaviour, end-of-quarter decisions.
+- **Three Governing Feedback Loops:** Economic Alignment (North Star → Incentives → Qualification → Quality), Coherence (Invariants → Handoffs → Forecast Trust), Learning (Data → Decisions → Belief → Cleaner Data). Apply when: diagnosing why improvements aren't sticking.
+- **Collapse Sequences:** Three predictable decay patterns — incentive collapse, value drift, data politicisation — each with observable early signals. Apply when: NRR declining despite pipeline growth, forecast volatility, cross-functional blame cycles.
 
 **David Skok** — Unit economics are the truth. Everything else is narrative.
 - **SaaS Metrics Dashboard:** LTV:CAC (>3x), CAC Payback (<18 months), NRR (>120% = almost nothing else matters), Gross Margin. Apply when: business case evaluation, pricing decisions.

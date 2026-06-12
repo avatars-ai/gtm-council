@@ -98,6 +98,7 @@
 | Coaching Data vs Data Integrity | Roberge vs GTM Data Strategist | Stage-based coaching metrics vs stage accuracy |
 | Strategy System vs Challenger Insight | Marketing Strategist vs Adamson | Systematic perception-building vs provocative insight |
 | Advantages vs Architecture | Marketing Strategist vs Van der Kooij | Marketing-advantage-first vs segment-architecture-first |
+| Governance vs Inspection | Van der Kooij vs McMahon | System-level eligibility rules vs deal-level MEDDPICC inspection |
 | Purpose vs Advantages | Sinek vs Marketing Strategist | Lead with why vs lead with what accelerates growth |
 
 ## Session Limits
