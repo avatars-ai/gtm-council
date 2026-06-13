@@ -4,21 +4,21 @@
 
 **Option 1: One-command install**
 ```bash
-npx skills add avatars-ai/gtm-os
+npx skills add avatars-ai/gtm-council
 ```
 
 **Option 2: Git clone**
 ```bash
-git clone https://github.com/avatars-ai/gtm-os.git ~/.claude/skills/gtm-os
+git clone https://github.com/avatars-ai/gtm-council.git ~/.claude/skills/gtm-council
 ```
 
 **Option 3: Manual copy**
 ```bash
 # macOS / Linux
-cp -r gtm-os ~/.claude/skills/gtm-os
+cp -r gtm-council ~/.claude/skills/gtm-council
 
 # Windows (PowerShell)
-Copy-Item -Path "gtm-os" -Destination "$env:USERPROFILE\.claude\skills\gtm-os" -Recurse
+Copy-Item -Path "gtm-council" -Destination "$env:USERPROFILE\.claude\skills\gtm-council" -Recurse
 ```
 
 That's it. Claude Code reads `SKILL.md` automatically on the next session.
@@ -78,8 +78,8 @@ claude mcp add brave-search -- npx @anthropic/brave-search-mcp
 
 1. Copy the team operating system template:
 ```bash
-cp ~/.claude/skills/gtm-os/operator/team-os-template.md \
-   ~/.claude/skills/gtm-os/operator/team-os.md
+cp ~/.claude/skills/gtm-council/operator/team-os-template.md \
+   ~/.claude/skills/gtm-council/operator/team-os.md
 ```
 
 2. Open `team-os.md` and replace all `[bracketed placeholders]` with your
@@ -103,8 +103,8 @@ Claude Code has file system access, so the self-learning commands work fully:
 To update GTM OS, replace the skill directory with the new version:
 
 ```bash
-rm -rf ~/.claude/skills/gtm-os
-cp -r gtm-os-new ~/.claude/skills/gtm-os
+rm -rf ~/.claude/skills/gtm-council
+cp -r gtm-council-new ~/.claude/skills/gtm-council
 ```
 
 Your `operator/team-os.md` will be overwritten — back it up first if you've customised it.
@@ -112,7 +112,7 @@ Your `operator/team-os.md` will be overwritten — back it up first if you've cu
 ## Troubleshooting
 
 **Skill doesn't trigger:**
-Check that `gtm-os/SKILL.md` exists at the correct path. Run `ls ~/.claude/skills/gtm-os/SKILL.md`.
+Check that `gtm-council/SKILL.md` exists at the correct path. Run `ls ~/.claude/skills/gtm-council/SKILL.md`.
 
 **"I don't have access to [tool]" messages:**
 This is expected behaviour. GTM OS tells you which data sources are missing so you

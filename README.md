@@ -1,6 +1,6 @@
 # GTM OS
 
-[![GitHub](https://img.shields.io/github/stars/avatars-ai/gtm-os?style=social)](https://github.com/avatars-ai/gtm-os)
+[![GitHub](https://img.shields.io/github/stars/avatars-ai/gtm-council?style=social)](https://github.com/avatars-ai/gtm-council)
 [![License](https://img.shields.io/badge/license-custom-blue)](LICENSE.md)
 
 A virtual advisory board of 27 world-class GTM strategists that operates as an AI skill — providing deal strategy, pipeline diagnosis, coaching, marketing strategy, RevOps diagnostics, and executive communication grounded in 145+ research-verified frameworks.
@@ -19,12 +19,12 @@ Detailed per-platform guides in `docs/install/`.
 
 **One-Command Install (Claude Code, Codex, Cursor, Gemini CLI, and 67+ agents)**
 ```bash
-npx skills add avatars-ai/gtm-os
+npx skills add avatars-ai/gtm-council
 ```
 
 **Manual Install — Claude Code**
 ```bash
-git clone https://github.com/avatars-ai/gtm-os.git ~/.claude/skills/gtm-os
+git clone https://github.com/avatars-ai/gtm-council.git ~/.claude/skills/gtm-council
 ```
 
 **Claude.ai**
@@ -35,17 +35,17 @@ Copy `SKILL.md` contents into Custom GPT instructions. Upload `council/framework
 and `council/roster.md` to Knowledge. See `docs/install/chatgpt.md`.
 
 **Codex**
-Copy `gtm-os/` to your project's skills directory.
+Copy `gtm-council/` to your project's skills directory.
 
 **OpenAI Agent Registries**
 `agents/openai.yaml` provides display name, short description, and default prompt
 for OpenAI-compatible agent registry formats.
 
 **Cursor / Windsurf**
-Copy `gtm-os/` to `.cursor/skills/` or `.windsurf/skills/`. See `docs/install/cursor-windsurf.md`.
+Copy `gtm-council/` to `.cursor/skills/` or `.windsurf/skills/`. See `docs/install/cursor-windsurf.md`.
 
 **Gemini CLI**
-Copy `gtm-os/` to `~/.gemini/skills/`. See `docs/install/gemini-cli.md`.
+Copy `gtm-council/` to `~/.gemini/skills/`. See `docs/install/gemini-cli.md`.
 
 ## What You Get
 

@@ -39,7 +39,7 @@ Best for: adding GTM advisory to an existing project workspace.
 
 For ChatGPT's Codex environment:
 
-1. Copy the `gtm-os/` directory to your Codex project's skills folder
+1. Copy the `gtm-council/` directory to your Codex project's skills folder
 2. Codex reads `SKILL.md` as the skill definition
 3. If Codex supports MCP, connect your data sources per `protocols/tool-abstraction.md`
 

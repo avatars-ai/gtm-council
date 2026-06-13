@@ -2,11 +2,11 @@
 
 ## Quick Install
 
-1. Download the `gtm-os` folder as a ZIP file
+1. Download the `gtm-council` folder as a ZIP file
 2. Go to **claude.ai** -> **Settings** -> **Skills**
 3. Click **Upload Skill**
 4. Select the ZIP file
-5. The skill appears in your skills list as "gtm-os"
+5. The skill appears in your skills list as "gtm-council"
 
 The skill triggers automatically when you ask GTM-related questions.
 
@@ -15,7 +15,7 @@ The skill triggers automatically when you ask GTM-related questions.
 If ZIP upload isn't available:
 
 1. Open **Settings** -> **Skills** -> **Create Skill**
-2. Set name to `gtm-os`
+2. Set name to `gtm-council`
 3. Paste the contents of `SKILL.md` into the instructions field
 4. Upload supporting files:
    - `council/roster.md`

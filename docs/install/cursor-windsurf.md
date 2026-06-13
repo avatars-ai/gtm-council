@@ -7,10 +7,10 @@ GTM OS installs the same way in both.
 
 ```bash
 # Cursor
-git clone https://github.com/avatars-ai/gtm-os.git .cursor/skills/gtm-os
+git clone https://github.com/avatars-ai/gtm-council.git .cursor/skills/gtm-council
 
 # Windsurf
-git clone https://github.com/avatars-ai/gtm-os.git .windsurf/skills/gtm-os
+git clone https://github.com/avatars-ai/gtm-council.git .windsurf/skills/gtm-council
 ```
 
 Or copy manually from a local download into your project's skills folder.
@@ -65,7 +65,7 @@ per their current documentation.
 
 1. Copy the template:
 ```bash
-cp gtm-os/operator/team-os-template.md gtm-os/operator/team-os.md
+cp gtm-council/operator/team-os-template.md gtm-council/operator/team-os.md
 ```
 
 2. Edit `team-os.md` with your team's values

@@ -1,5 +1,5 @@
 ---
-name: gtm-os
+name: gtm-council
 description: >
   Trigger on: deal strategy, deal review, deal rescue, pricing, negotiation,
   MEDDPICC, discovery, stakeholder mapping, pipeline health, forecast, coverage,

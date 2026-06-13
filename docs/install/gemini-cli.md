@@ -8,7 +8,7 @@ Agent Skills specification which Gemini CLI recognises.
 Copy the `gtm-os` directory to your Gemini CLI skills location:
 
 ```bash
-cp -r gtm-os ~/.gemini/skills/gtm-os
+cp -r gtm-council ~/.gemini/skills/gtm-council
 ```
 
 Check Gemini CLI's current documentation for the exact skills directory path —
