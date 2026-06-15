@@ -1,8 +1,8 @@
-# Changelog
+﻿# Changelog
 
 All notable changes to GTM OS are documented here.
 
-## [0.2.1] — 2026-06-15
+## [0.2.5] — 2026-06-15
 
 ### Gap Fixes — Anthropic Guide Compliance
 

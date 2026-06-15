@@ -1,6 +1,6 @@
-# File Manifest — GTM OS
+﻿# File Manifest — GTM OS
 
-*Last verified: 2026-06-15 (v0.2.1)*
+*Last verified: 2026-06-15 (v0.2.5)*
 *Audit cadence: Quarterly — verify all references resolve, delete unused files*
 
 ---

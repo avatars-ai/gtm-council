@@ -20,7 +20,7 @@ compatibility: >
   No runtime dependencies. No API keys required to install.
 metadata:
   author: Ali Syed
-  version: "0.2.1"
+  version: "0.2.5"
 ---
 
 # GTM OS
