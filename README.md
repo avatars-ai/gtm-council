@@ -1,4 +1,4 @@
-# GTM OS
+# GTM COUNCIL
 
 [![GitHub](https://img.shields.io/github/stars/avatars-ai/gtm-council?style=social)](https://github.com/avatars-ai/gtm-council)
 [![License](https://img.shields.io/badge/license-custom-blue)](LICENSE.md)
