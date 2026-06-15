@@ -37,6 +37,7 @@ Uses `evals/evals.json` and `scripts/run_eval.js`.
 | `/eval --quick` | Spot check — 5 randomly selected evals |
 | `/eval --id 7` | Single eval by ID |
 | `/eval --regression` | Compares against last saved baseline in `evals/eval-results.json` |
+| `/eval --baseline` | Surfaces `docs/baseline-comparison.md` — the quantitative skill vs no-skill quality comparison |
 
 **Output format:**
 ```
@@ -86,6 +87,15 @@ Token efficiency analysis:
 - Identify compression opportunities in framework-index.md
 - Flag any files that have grown beyond their intended scope
 - Propose specific cuts or consolidations
+
+### /optimise baseline
+
+Baseline quality review:
+- Load `docs/baseline-comparison.md`
+- Check if the current version number matches the baseline's `Version` header
+- If the version has advanced since the last baseline update, flag as stale
+- Propose running the three test prompts again and updating the delta table
+- Apply update on confirmation
 
 ---
 

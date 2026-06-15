@@ -2,6 +2,27 @@
 
 All notable changes to GTM OS are documented here.
 
+## [0.2.1] — 2026-06-15
+
+### Gap Fixes — Anthropic Guide Compliance
+
+Three structural gaps identified against Anthropic's Complete Guide to Building Skills for Claude (June 2026) closed.
+
+**Gap 1: Executable script wired into output gate**
+- `protocols/output-gate.md` — added Deterministic Validation section with full `scripts/validate_output.js` invocation instructions, usage modes (default / customer-facing / council / coaching), exit code reference, and per-check descriptions. The script existed but was orphaned — no instruction in the skill told Claude to run it. Language-based humanizer audit remains the fallback for platforms without script execution.
+- `docs/file-manifest.md` — added `validate_output.js` to Scripts section (was missing entirely, listed only 2 scripts).
+
+**Gap 2: Assets directory registered**
+- `SKILL.md` on-demand file table — added `assets/` entry with description of copy-ready delivery artifacts.
+- `docs/file-manifest.md` — added Assets section (5 files) with correct distinction from Templates section. `assets/` directory and files already existed; were simply unregistered in the skill's routing layer.
+
+**Gap 3: Baseline comparison registered**
+- `SKILL.md` on-demand file table — added `docs/baseline-comparison.md` with load trigger (when asked about skill performance or improvement evidence).
+- `protocols/self-learning.md` — added `/eval --baseline` command that surfaces the baseline document, and `/optimise baseline` command that checks whether the baseline is stale relative to the current version and prompts an update.
+- `docs/file-manifest.md` — added `docs/baseline-comparison.md` to Docs section. Document already existed (149 lines, v0.2.0 dated); was simply invisible to the skill routing layer.
+
+---
+
 ## [0.2.0] — 2026-06-12
 
 ### Avatar Additions

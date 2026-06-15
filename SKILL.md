@@ -20,7 +20,7 @@ compatibility: >
   No runtime dependencies. No API keys required to install.
 metadata:
   author: Ali Syed
-  version: "0.2.0"
+  version: "0.2.1"
 ---
 
 # GTM OS
@@ -279,12 +279,14 @@ application, and attributed advice.
 | `protocols/gtm-strategy.md` | Org design, positioning, pricing |
 | `protocols/revops-diagnostics.md` | Revenue system diagnostic, CRM platform reference |
 | `protocols/document-review.md` | Four-cohort review, humanizer pass |
-| `protocols/output-gate.md` | Customer-facing output gate |
+| `protocols/output-gate.md` | Customer-facing output gate — language + deterministic script validation |
 | `protocols/strategic-futures.md` | Category strategy, moat assessment, pricing transitions |
 | `protocols/token-efficiency.md` | Tool call optimisation, loading tiers |
 | `protocols/tool-connectors.md` | Data synthesis discipline, stakeholder classification |
 | `protocols/self-learning.md` | /capture, /eval, /optimise commands |
 | `examples/` | Few-shot learning when output quality needs calibration |
+| `assets/` | Copy-ready delivery artifacts — cliff edge memo, council output, deal card, churn brief. Copy, fill brackets, delete inapplicable sections. |
+| `docs/baseline-comparison.md` | Quantitative baseline — skill vs no-skill output quality comparison across 3 prompt types. Load when asked about skill performance or improvement evidence. |
 
 ---
 

@@ -70,4 +70,44 @@ If the operator asks to skip either pass, acknowledge the request but state:
 "This document will go to a customer without council review and humanizer audit.
 Confirm you want to proceed." The operator can override — but must do so explicitly.
 
+---
+
+## Deterministic Validation (Claude Code / File System Environments)
+
+On platforms with script execution (Claude Code, Cursor, Windsurf, Gemini CLI),
+run `scripts/validate_output.js` after both passes complete. This replaces
+probabilistic language checks with deterministic code execution.
+
+```bash
+# Default — core quality gates
+node scripts/validate_output.js --file output.md
+
+# Customer-facing (strictest — all quality gates)
+node scripts/validate_output.js --file output.md --mode customer-facing
+
+# Council session output
+node scripts/validate_output.js --file output.md --mode council
+
+# Coaching output
+node scripts/validate_output.js --file output.md --mode coaching
+```
+
+**Exit codes:**
+- `0` = All checks passed — output is clear for delivery
+- `1` = Warnings only — proceed with review
+- `2` = Hard failures — output must not be delivered as-is
+
+**What the script checks deterministically:**
+- Zero em dashes (`—`) — hard failure
+- Zero banned AI vocabulary (30 terms) — hard failure
+- Zero theatrical closings — hard failure
+- Specific next steps present — warning
+- Strong opener (no preamble) — warning
+- Council: disagreement present — hard failure if absent
+- Council: minimum 2 named avatars — hard failure if absent
+- Coaching: Skill/Will/System diagnosis present — warning
+
+On platforms without script execution, the language-based humanizer audit
+(Pass 2 above) remains the enforcement mechanism.
+
 

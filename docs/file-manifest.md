@@ -1,6 +1,6 @@
 # File Manifest — GTM OS
 
-*Last verified: 2026-06-12 (v0.2.0)*
+*Last verified: 2026-06-15 (v0.2.1)*
 *Audit cadence: Quarterly — verify all references resolve, delete unused files*
 
 ---
@@ -57,12 +57,13 @@
 | `operator/universal-context.md` | Cross-functional tension maps, diagnostics, communication |
 | `operator/team-os-template.md` | Template — copy to team-os.md and customise |
 
-## Docs (10 files)
+## Docs (11 files)
 
 | File | Purpose |
 |---|---|
 | `docs/artifact-design-system.md` | Duarte principles, Cliff Edge Structure |
 | `docs/avatar-quality-rubric.md` | 8-dimension scoring rubric |
+| `docs/baseline-comparison.md` | Quantitative skill vs no-skill output quality comparison — 3 prompt types, 5 dimensions, token efficiency delta |
 | `docs/british-audience-calibration.md` | British register guidance |
 | `docs/design-principles.md` | Skill architecture rationale |
 | `docs/file-manifest.md` | This file |
@@ -92,7 +93,19 @@
 | `examples/mna-evaluation.md` | Strategic-first M&A assessment |
 | `examples/anti-patterns.md` | Four failure modes to avoid |
 
-## Templates (6 files)
+## Assets (5 files) — Copy-Ready Delivery Artifacts
+
+| File | Purpose |
+|---|---|
+| `assets/cliff-edge-memo.md` | Executive briefing, deal status update, risk escalation, CRO memo |
+| `assets/council-session-output.md` | Council session delivery artifact |
+| `assets/deal-qualification-card.md` | Full MEDDPICC qualification, deal inspection, stage gate review |
+| `assets/churn-save-brief.md` | Pre-call prep for at-risk renewal or active churn situation |
+| `assets/README.md` | How Claude uses assets — copy, fill brackets, delete inapplicable sections |
+
+## Templates (6 files) — Instruction Guides
+
+*Distinct from assets/. Templates explain structure and intent. Assets are blank delivery documents.*
 
 | File | Purpose |
 |---|---|
@@ -103,12 +116,13 @@
 | `templates/individual-consult.md` | Individual consultation template |
 | `templates/marketing-review.md` | Marketing strategy review template |
 
-## Scripts (2 files)
+## Scripts (3 files)
 
 | File | Purpose |
 |---|---|
-| `scripts/run_eval.js` | Eval runner |
-| `scripts/score_engagement.js` | Engagement scoring |
+| `scripts/run_eval.js` | Eval runner — presents test cases, grades results, outputs benchmark report |
+| `scripts/validate_output.js` | Deterministic output validator — checks em dashes, AI vocabulary, theatrical closings, council disagreement, coaching diagnosis. Exit 0=clear, 1=warnings, 2=blocked. |
+| `scripts/score_engagement.js` | Engagement scoring — avatar effectiveness, routing analysis, friction patterns, avatar freshness check |
 
 ## Other
 
